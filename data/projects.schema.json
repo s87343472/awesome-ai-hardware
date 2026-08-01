@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Awesome AI Hardware projects",
+  "type": "object",
+  "required": ["projects"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id", "name", "repo_url", "category", "description_zh",
+          "ai_role", "hardware_role", "license", "last_verified", "tags"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "type": "string", "minLength": 1 },
+          "repo_url": { "type": "string", "pattern": "^https://github\\.com/[^/]+/[^/]+/?$" },
+          "category": {
+            "enum": [
+              "smart-home-iot", "wearables", "voice-companions", "robotics",
+              "edge-ai", "protocols-infrastructure", "creative-hardware"
+            ]
+          },
+          "description_zh": { "type": "string", "minLength": 10 },
+          "description_en": { "type": "string", "minLength": 10 },
+          "ai_role": { "type": "string", "minLength": 3 },
+          "hardware_role": { "type": "string", "minLength": 3 },
+          "license": { "type": "string", "minLength": 2 },
+          "source_url": { "type": "string", "format": "uri" },
+          "demo_url": { "type": "string", "format": "uri" },
+          "last_verified": { "type": "string", "format": "date" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  }
+}

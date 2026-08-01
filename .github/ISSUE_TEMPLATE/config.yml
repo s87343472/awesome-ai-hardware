@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 先阅读收录规则
+    url: https://github.com/s87343472/awesome-ai-hardware/blob/main/CONTRIBUTING.md
+    about: 投稿前请确认项目符合 AI × 硬件与开源要求

@@ -1,0 +1,93 @@
+name: 项目投稿
+description: 推荐一个开源 AI × 硬件项目
+title: "[Project]: "
+labels:
+  - candidate
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢投稿。一次只提交一个项目；提交前请阅读 CONTRIBUTING.md。
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub 仓库 URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 一句话说明
+      description: 用事实说明 AI 做什么、硬件是什么。
+    validations:
+      required: true
+  - type: textarea
+    id: ai-role
+    attributes:
+      label: AI 的具体作用
+      description: 使用什么模型或 Agent，它在核心运行路径中完成什么任务？
+    validations:
+      required: true
+  - type: textarea
+    id: hardware-role
+    attributes:
+      label: 硬件的具体作用
+      description: 项目读取或控制什么设备？硬件设计或固件在哪里？
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: 开源许可证
+      placeholder: MIT（请注明 LICENSE 文件位置）
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 原始分享或演示 URL
+      description: 如果声称来自 X、博客或视频分享，请提供原始链接。
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议主分类
+      options:
+        - 智能家居与 IoT
+        - AI 可穿戴设备
+        - 语音助手与 AI 伴侣
+        - 机器人与具身智能
+        - 边缘 AI 与微控制器
+        - 协议与基础设施
+        - 状态可视化与创意硬件
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: 你与项目的关系
+      options:
+        - 无关系，仅推荐
+        - 项目作者或维护者
+        - 所属组织成员
+        - 其他利益关系
+    validations:
+      required: true
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: 复现依据
+      description: 请指出安装、构建、BOM、接线、固件或架构文档的位置。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 投稿确认
+      options:
+        - label: 我已搜索现有 Issue 和项目列表，确认没有重复投稿。
+          required: true
+        - label: 我已阅读并确认项目符合 CONTRIBUTING.md 的强制门槛。
+          required: true
+        - label: 我披露的信息真实，且没有以收录换取利益。
+          required: true
