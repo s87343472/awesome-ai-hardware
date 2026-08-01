@@ -13,7 +13,7 @@
         "additionalProperties": false,
         "required": [
           "id", "name", "repo_url", "category", "description_zh",
-          "ai_role", "hardware_role", "license", "last_verified", "tags"
+          "ai_role", "hardware_role", "license", "added_at", "last_verified", "tags"
         ],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
@@ -30,9 +30,24 @@
           "ai_role": { "type": "string", "minLength": 3 },
           "hardware_role": { "type": "string", "minLength": 3 },
           "license": { "type": "string", "minLength": 2 },
+          "added_at": { "type": "string", "format": "date" },
+          "discovered_at": { "type": "string", "format": "date" },
           "source_url": { "type": "string", "format": "uri" },
           "demo_url": { "type": "string", "format": "uri" },
           "last_verified": { "type": "string", "format": "date" },
+          "resources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["type", "title", "url"],
+              "properties": {
+                "type": { "enum": ["image", "video", "demo", "article", "docs"] },
+                "title": { "type": "string", "minLength": 1 },
+                "url": { "type": "string", "format": "uri" }
+              }
+            }
+          },
           "tags": {
             "type": "array",
             "items": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },

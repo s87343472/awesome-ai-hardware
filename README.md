@@ -16,6 +16,7 @@ This is not a news feed or an unverified link dump. Every listed project must me
 
 - [Categories](#categories)
 - [Projects](#projects)
+- [Timeline](#timeline)
 - [Inclusion Criteria](#inclusion-criteria)
 - [Contributing](#contributing)
 - [Data and Transparency](#data-and-transparency)
@@ -38,6 +39,12 @@ The first group of projects is currently being verified. Accepted entries will u
 
 > **Project Name** — One sentence explaining what the AI does and how it interacts with the hardware. `License` · `Hardware` · `AI role`<br>
 > [GitHub](https://github.com/) · [Original post or demo](https://x.com/) · Last verified: YYYY-MM-DD
+
+## Timeline
+
+Browse the [collection timeline](timeline/README.md) to discover projects by the month they were accepted. Timeline entries include the source repository, original X post when available, a concise introduction, and links to original images, videos, demos, or articles.
+
+The acceptance date is not necessarily the project's publication date or the date it was discovered.
 
 ## Inclusion Criteria
 
@@ -62,7 +69,7 @@ A recommendation is not an acceptance. Maintainers verify the source repository,
 
 ## Data and Transparency
 
-Accepted entries are also stored in [`data/projects.json`](data/projects.json). Automated checks validate required fields, categories, dates, URLs, sorting, and duplicate entries. Review decisions remain visible in the corresponding Issue or Pull Request.
+Accepted entries are also stored in [`data/projects.json`](data/projects.json). Automated checks validate required fields, categories, acceptance and verification dates, URLs, media resources, sorting, and duplicate entries. Review decisions remain visible in the corresponding Issue or Pull Request.
 
 ## Disclaimer
 

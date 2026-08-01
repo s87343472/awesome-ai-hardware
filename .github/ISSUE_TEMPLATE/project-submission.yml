@@ -48,6 +48,14 @@ body:
     attributes:
       label: 原始分享或演示 URL
       description: 如果声称来自 X、博客或视频分享，请提供原始链接。
+  - type: textarea
+    id: resources
+    attributes:
+      label: 图文与视频资源
+      description: 可选。每行提供一个原始图片、视频、Demo、文章或文档 URL，并简单注明类型。
+      placeholder: |
+        Video: https://example.com/video
+        Images: https://example.com/gallery
   - type: dropdown
     id: category
     attributes:

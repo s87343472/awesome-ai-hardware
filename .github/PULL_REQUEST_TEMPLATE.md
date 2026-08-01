@@ -9,10 +9,11 @@ Closes #
 ## 核验清单
 
 - [ ] 我已阅读 `CONTRIBUTING.md` 和 `docs/REVIEW_GUIDE.md`
-- [ ] 新项目同时更新了 `data/projects.json` 和 README
+- [ ] 新项目同时更新了 `data/projects.json`、README 和对应的月度时间线
 - [ ] 仓库包含实际源代码和明确的开源许可证
 - [ ] 描述明确说明了 AI 作用和硬件作用
 - [ ] 原始分享/演示等声明附有可访问的来源 URL
+- [ ] 媒体资源链接到原始来源，未重新托管未经授权的素材
 - [ ] 没有广告语、无法核验的数据或重复项目
 - [ ] 已运行 `python scripts/validate_projects.py`
 

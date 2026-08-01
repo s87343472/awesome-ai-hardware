@@ -32,10 +32,18 @@ REQUIRED = {
     "ai_role",
     "hardware_role",
     "license",
+    "added_at",
     "last_verified",
     "tags",
 }
-OPTIONAL = {"description_en", "source_url", "demo_url"}
+OPTIONAL = {
+    "description_en",
+    "discovered_at",
+    "source_url",
+    "demo_url",
+    "resources",
+}
+RESOURCE_TYPES = {"image", "video", "demo", "article", "docs"}
 
 
 def is_http_url(value: object) -> bool:
@@ -107,12 +115,42 @@ def validate() -> list[str]:
             if field in project and not is_http_url(project[field]):
                 errors.append(f"{label}.{field} must be an HTTP(S) URL.")
 
-        try:
-            verified = dt.date.fromisoformat(project.get("last_verified", ""))
-            if verified > dt.date.today():
-                errors.append(f"{label}.last_verified cannot be in the future.")
-        except (TypeError, ValueError):
-            errors.append(f"{label}.last_verified must use YYYY-MM-DD.")
+        parsed_dates: dict[str, dt.date] = {}
+        for field in ("added_at", "discovered_at", "last_verified"):
+            if field not in project:
+                continue
+            try:
+                parsed_dates[field] = dt.date.fromisoformat(project[field])
+                if parsed_dates[field] > dt.date.today():
+                    errors.append(f"{label}.{field} cannot be in the future.")
+            except (TypeError, ValueError):
+                errors.append(f"{label}.{field} must use YYYY-MM-DD.")
+
+        if parsed_dates.get("last_verified", dt.date.min) < parsed_dates.get("added_at", dt.date.min):
+            errors.append(f"{label}.last_verified cannot be earlier than added_at.")
+
+        resources = project.get("resources", [])
+        if not isinstance(resources, list):
+            errors.append(f"{label}.resources must be an array.")
+        else:
+            resource_urls: set[str] = set()
+            for resource_index, resource in enumerate(resources):
+                resource_label = f"{label}.resources[{resource_index}]"
+                if not isinstance(resource, dict):
+                    errors.append(f"{resource_label} must be an object.")
+                    continue
+                if set(resource) != {"type", "title", "url"}:
+                    errors.append(f"{resource_label} must contain only type, title, and url.")
+                if resource.get("type") not in RESOURCE_TYPES:
+                    errors.append(f"{resource_label}.type is not recognized.")
+                if not isinstance(resource.get("title"), str) or not resource["title"].strip():
+                    errors.append(f"{resource_label}.title must be a non-empty string.")
+                if not is_http_url(resource.get("url")):
+                    errors.append(f"{resource_label}.url must be an HTTP(S) URL.")
+                elif resource["url"] in resource_urls:
+                    errors.append(f"{resource_label}.url is duplicated in this project.")
+                else:
+                    resource_urls.add(resource["url"])
 
         tags = project.get("tags")
         if not isinstance(tags, list) or any(not isinstance(tag, str) or not SLUG.fullmatch(tag) for tag in tags):

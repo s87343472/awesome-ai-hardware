@@ -12,6 +12,7 @@
 - 硬件的具体作用
 - 开源许可证
 - 原始分享、演示或文档 URL（如有）
+- 原始图片、视频、Demo 或文章 URL（如有）
 - 建议分类和标签
 
 一次 Issue 只提交一个项目。项目作者可以提交自己的项目，但必须披露关系。
@@ -75,7 +76,7 @@
 1. **Triage**：检查链接、必填字段和明显重复。
 2. **Verification**：核验许可证、AI 作用、硬件作用和复现资料。
 3. **Decision**：接受、要求补充、暂缓或拒绝。
-4. **Merge**：由 PR 修改 `data/projects.json` 和 README。
+4. **Merge**：由 PR 修改 `data/projects.json`、README 和对应的月度时间线。
 5. **Maintenance**：定期复查失效链接、归档状态和重大变化。
 
 通常状态标签为：`candidate`、`needs-info`、`needs-verification`、`accepted`、`rejected`、`archived`。
@@ -87,13 +88,23 @@
 - 一次 PR 只处理一个项目或一种维护事项；
 - 不要使用广告语、夸张数据或无法核验的评价；
 - 项目描述使用事实性的一句话，说明“AI 做什么”和“硬件是什么”；
-- 新项目必须同时加入结构化数据与 README；
+- 新项目必须同时加入结构化数据、README 与 `timeline/YYYY/MM.md`；
 - 日期使用 `YYYY-MM-DD`；
 - 提交前运行 `python scripts/validate_projects.py`。
 
 ## 排序与公平性
 
 分类内默认按项目名称排序。Stars、融资、品牌关系和在 X 上的热度不决定收录或排序。维护者、贡献者和项目作者之间的利益关系必须公开。
+
+## 时间与媒体字段
+
+- `added_at`：维护者批准并正式收录项目的日期；这是月度时间线的唯一分组依据。
+- `discovered_at`：项目被提交或发现的日期，可选；不能代替 `added_at`。
+- `last_verified`：项目资料最后一次完成核验的日期。
+- `source_url`：原始 X Post、博客或项目发布页面，而不是搜索结果页。
+- `resources`：原始图片、视频、Demo、文章或文档链接。请优先链接项目作者或官方仓库发布的资源。
+
+不要下载、复制或重新托管没有明确授权的 X 图片或视频。可以链接原始 Post；只有仓库自有或许可证允许的图片才适合直接嵌入预览。
 
 ## 移除和申诉
 
