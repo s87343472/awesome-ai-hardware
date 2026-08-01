@@ -30,6 +30,7 @@ INDEXED_CORE_DOCS = {
     "../SECURITY.md",
     "../SECURITY.zh-CN.md",
     "../timeline/README.md",
+    "../reviews/README.md",
 }
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^]]*]\(([^)]+)\)")
 
@@ -87,6 +88,9 @@ def validate() -> list[str]:
     year_index = read("timeline/2026/README.md") if (ROOT / "timeline/2026/README.md").is_file() else ""
     if "(08.md)" not in year_index:
         errors.append("timeline/2026/README.md does not link the August page.")
+    review_index = read("reviews/README.md") if (ROOT / "reviews/README.md").is_file() else ""
+    if "(2026-08-01-initial-batch.md)" not in review_index:
+        errors.append("reviews/README.md does not link the initial batch review.")
 
     return errors
 

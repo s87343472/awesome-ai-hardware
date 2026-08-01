@@ -67,6 +67,8 @@ def validate() -> list[str]:
     seen_ids: set[str] = set()
     seen_repos: set[str] = set()
     names: list[str] = []
+    readme_en = (ROOT / "README.md").read_text(encoding="utf-8")
+    readme_zh = (ROOT / "README.zh-CN.md").read_text(encoding="utf-8")
 
     for index, project in enumerate(projects):
         label = f"projects[{index}]"
@@ -128,6 +130,19 @@ def validate() -> list[str]:
 
         if parsed_dates.get("last_verified", dt.date.min) < parsed_dates.get("added_at", dt.date.min):
             errors.append(f"{label}.last_verified cannot be earlier than added_at.")
+
+        if isinstance(repo_url, str):
+            if repo_url not in readme_en:
+                errors.append(f"{label}.repo_url is missing from README.md.")
+            if repo_url not in readme_zh:
+                errors.append(f"{label}.repo_url is missing from README.zh-CN.md.")
+            added_at = parsed_dates.get("added_at")
+            if added_at:
+                timeline_file = ROOT / "timeline" / str(added_at.year) / f"{added_at.month:02d}.md"
+                if not timeline_file.is_file():
+                    errors.append(f"{label} has no monthly timeline file: {timeline_file.relative_to(ROOT)}.")
+                elif repo_url not in timeline_file.read_text(encoding="utf-8"):
+                    errors.append(f"{label}.repo_url is missing from {timeline_file.relative_to(ROOT)}.")
 
         resources = project.get("resources", [])
         if not isinstance(resources, list):

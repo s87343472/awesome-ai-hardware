@@ -1,4 +1,275 @@
 {
   "$schema": "./projects.schema.json",
-  "projects": []
+  "projects": [
+    {
+      "id": "ai-doorbell-home-assistant",
+      "name": "AI Doorbell for Home Assistant",
+      "repo_url": "https://github.com/nwkuga/ha-ai-doorbell",
+      "category": "smart-home-iot",
+      "description_zh": "通过视觉语言模型比较门铃快照与已标注参考照片，并在 Home Assistant 与 Telegram 中完成识别和纠正。",
+      "description_en": "Uses a vision-language model to compare doorbell snapshots with labeled reference photos and handle recognition and corrections through Home Assistant and Telegram.",
+      "ai_role": "A multimodal AI Task agent matches and describes people from camera snapshots and reference images.",
+      "hardware_role": "A Home Assistant camera or video doorbell supplies event-triggered snapshots.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "image",
+          "title": "Recognition and correction flow",
+          "url": "https://github.com/nwkuga/ha-ai-doorbell/blob/main/docs/img/04-flow.svg"
+        },
+        {
+          "type": "docs",
+          "title": "Project documentation",
+          "url": "https://github.com/nwkuga/ha-ai-doorbell/tree/main/docs"
+        }
+      ],
+      "tags": ["doorbell", "home-assistant", "vision-language-model"]
+    },
+    {
+      "id": "esp32-ai",
+      "name": "ESP32 AI",
+      "repo_url": "https://github.com/slvDev/esp32-ai",
+      "category": "edge-ai",
+      "description_zh": "在 ESP32-S3 上完全离线运行 2890 万参数 TinyStories 语言模型，并将生成文本输出到连接的显示屏。",
+      "description_en": "Runs a 28.9-million-parameter TinyStories language model fully offline on an ESP32-S3 and writes generated text to an attached display.",
+      "ai_role": "A quantized language model performs on-device autoregressive text generation.",
+      "hardware_role": "ESP32-S3 flash, PSRAM, and a wired display host the model and show its output.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "video",
+          "title": "On-device generation demo",
+          "url": "https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif"
+        },
+        {
+          "type": "docs",
+          "title": "Measurements and experiments",
+          "url": "https://github.com/slvDev/esp32-ai/blob/main/RESULTS.md"
+        }
+      ],
+      "tags": ["esp32", "llm", "on-device-ai"]
+    },
+    {
+      "id": "esprec",
+      "name": "esprec",
+      "repo_url": "https://github.com/tig/esprec",
+      "category": "protocols-infrastructure",
+      "description_zh": "通过 ESP32 端组件和主机工具，让编码 Agent 经 USB 串口捕获设备帧缓冲并进行真实屏幕的视觉验证。",
+      "description_en": "Combines an ESP32 component with host tooling so coding agents can capture a device framebuffer over USB serial and visually validate the real screen.",
+      "ai_role": "Coding agents invoke the capture workflow to inspect and iteratively validate embedded user interfaces.",
+      "hardware_role": "An ESP32 component exports the device framebuffer over USB serial for PNG or GIF capture on the host.",
+      "license": "Apache-2.0",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Captured ESP32 screen sequence",
+          "url": "https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif"
+        },
+        {
+          "type": "docs",
+          "title": "Agent usage guide",
+          "url": "https://github.com/tig/esprec/blob/main/AGENTS.md"
+        }
+      ],
+      "tags": ["agent-tooling", "esp32", "screen-capture"]
+    },
+    {
+      "id": "hailo-apps",
+      "name": "Hailo Apps",
+      "repo_url": "https://github.com/hailo-ai/hailo-apps",
+      "category": "edge-ai",
+      "description_zh": "为树莓派 5 等平台上的 Hailo 加速器提供可运行的计算机视觉、VLM、LLM 与语音应用和开发管线。",
+      "description_en": "Provides runnable computer-vision, VLM, LLM, and speech applications and development pipelines for Hailo accelerators on platforms including Raspberry Pi 5.",
+      "ai_role": "Packaged models and pipelines perform vision, language, and speech inference on Hailo accelerators.",
+      "hardware_role": "Raspberry Pi 5 or supported computers run applications on Hailo-8, Hailo-8L, or Hailo-10H accelerators and camera inputs.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Agentic application development demo",
+          "url": "https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif"
+        },
+        {
+          "type": "docs",
+          "title": "Hailo Apps documentation",
+          "url": "https://github.com/hailo-ai/hailo-apps/blob/main/doc/README.md"
+        }
+      ],
+      "tags": ["computer-vision", "hailo", "raspberry-pi"]
+    },
+    {
+      "id": "home-generative-agent",
+      "name": "Home Generative Agent",
+      "repo_url": "https://github.com/goruck/home-generative-agent",
+      "category": "smart-home-iot",
+      "description_zh": "将 LangGraph Agent 集成到 Home Assistant，用云端或本地模型控制实体、创建自动化、分析摄像头并提供异常提醒。",
+      "description_en": "Integrates a LangGraph agent with Home Assistant to control entities, create automations, analyze cameras, and report anomalies with cloud or local models.",
+      "ai_role": "An LLM agent uses tools for entity control, automation generation, camera understanding, and semantic memory.",
+      "hardware_role": "Home Assistant entities, cameras, locks, sensors, and actuators provide observations and receive approved actions.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Natural-language automation demo",
+          "url": "https://github.com/goruck/home-generative-agent/blob/main/assets/create_automation.gif"
+        },
+        {
+          "type": "docs",
+          "title": "Installation guide",
+          "url": "https://github.com/goruck/home-generative-agent/blob/main/docs/installation.md"
+        }
+      ],
+      "tags": ["agent", "home-assistant", "local-llm"]
+    },
+    {
+      "id": "mcp2mqtt",
+      "name": "mcp2mqtt",
+      "repo_url": "https://github.com/mcp2everything/mcp2mqtt",
+      "category": "protocols-infrastructure",
+      "description_zh": "把 MCP 工具调用转换成 MQTT 命令，让大模型通过自然语言控制灯光、电机和其他联网设备。",
+      "description_en": "Converts MCP tool calls into MQTT commands so language models can control lights, motors, and other connected devices through natural language.",
+      "ai_role": "An MCP server exposes configured device commands as tools that an LLM can select and invoke.",
+      "hardware_role": "MQTT-connected lights, motors, sensors, and controllers execute commands and return device responses.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "image",
+          "title": "System architecture",
+          "url": "https://github.com/mcp2everything/mcp2mqtt/blob/main/docs/images/stru_eng.PNG"
+        },
+        {
+          "type": "image",
+          "title": "MCP-to-MQTT workflow",
+          "url": "https://github.com/mcp2everything/mcp2mqtt/blob/main/docs/images/workflow_eng.png"
+        }
+      ],
+      "tags": ["mcp", "mqtt", "smart-home"]
+    },
+    {
+      "id": "omi",
+      "name": "Omi",
+      "repo_url": "https://github.com/BasedHardware/omi",
+      "category": "wearables",
+      "description_zh": "开源可穿戴与配套应用持续采集对话和屏幕内容，进行实时转写、摘要、行动项提取和个人记忆检索。",
+      "description_en": "An open-source wearable and companion apps capture conversations and screen activity for real-time transcription, summaries, action items, and personal memory retrieval.",
+      "ai_role": "Speech and language models transcribe, summarize, retrieve memories, and answer questions over captured context.",
+      "hardware_role": "Wearable microphones and companion desktop or mobile devices capture audio and screen context.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "docs",
+          "title": "Official documentation",
+          "url": "https://docs.omi.me/"
+        },
+        {
+          "type": "demo",
+          "title": "Omi website and product overview",
+          "url": "https://omi.me/"
+        }
+      ],
+      "tags": ["memory", "voice-ai", "wearable"]
+    },
+    {
+      "id": "open-v-robotics-system",
+      "name": "Open V Robotics System",
+      "repo_url": "https://github.com/vahagnmikayelyan/open-v-robotics-system",
+      "category": "robotics",
+      "description_zh": "在 SBC 与 Raspberry Pi Pico 之间建立模块化机器人运行时，把 LLM 工具调用安全地路由到电机、摄像头、传感器和其他执行器。",
+      "description_en": "Provides a modular robot runtime across an SBC and Raspberry Pi Pico, routing LLM tool calls through permissioned modules to motors, cameras, sensors, and other actuators.",
+      "ai_role": "Cloud language and realtime models select permission-scoped tools through a common adapter layer.",
+      "hardware_role": "An SBC handles models and UI while a Raspberry Pi Pico runs real-time sensor and actuator drivers over UART.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "image",
+          "title": "Robot control interface",
+          "url": "https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png"
+        },
+        {
+          "type": "docs",
+          "title": "Architecture and hardware documentation",
+          "url": "https://github.com/vahagnmikayelyan/open-v-robotics-system/tree/main/docs"
+        }
+      ],
+      "tags": ["embodied-ai", "raspberry-pi", "robotics"]
+    },
+    {
+      "id": "openhome-abilities",
+      "name": "OpenHome Abilities",
+      "repo_url": "https://github.com/openhome-dev/abilities",
+      "category": "voice-companions",
+      "description_zh": "为 OpenHome 语音 Agent 提供可扩展插件，其中本地 Ability 可运行在 Raspberry Pi DevKit 上并访问 GPIO、传感器和设备。",
+      "description_en": "Provides extensible plugins for OpenHome voice agents, including local abilities that run on a Raspberry Pi DevKit and access GPIO, sensors, and devices.",
+      "ai_role": "Voice agents use LLM routing, speech input, and callable abilities to execute single-step or multi-step workflows.",
+      "hardware_role": "Local abilities run on the Raspberry Pi-based DevKit and can access GPIO, sensors, audio, and connected devices.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "docs",
+          "title": "Official OpenHome documentation",
+          "url": "https://docs.openhome.com/"
+        },
+        {
+          "type": "docs",
+          "title": "Companion DevKit design repository (license not specified)",
+          "url": "https://github.com/openhome-dev/devkit"
+        }
+      ],
+      "tags": ["plugins", "raspberry-pi", "voice-ai"]
+    },
+    {
+      "id": "picolm",
+      "name": "PicoLM",
+      "repo_url": "https://github.com/RightNow-AI/picolm",
+      "category": "edge-ai",
+      "description_zh": "用零依赖的 C 推理引擎在 256MB 内存的低成本 RISC-V 或树莓派设备上运行量化十亿参数 GGUF 模型。",
+      "description_en": "Uses a zero-dependency C inference engine to run quantized billion-parameter GGUF models on low-cost RISC-V or Raspberry Pi devices with 256 MB of memory.",
+      "ai_role": "A compact C runtime performs local LLM inference and can serve as the offline model process for an agent loop.",
+      "hardware_role": "Low-memory RISC-V boards and Raspberry Pi systems host the model and execute inference without a cloud service.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "image",
+          "title": "PicoLM hardware overview",
+          "url": "https://github.com/RightNow-AI/picolm/blob/main/picolm.jpg"
+        },
+        {
+          "type": "article",
+          "title": "Technical notes",
+          "url": "https://github.com/RightNow-AI/picolm/blob/main/BLOG.md"
+        }
+      ],
+      "tags": ["llm", "raspberry-pi", "risc-v"]
+    }
+  ]
 }
