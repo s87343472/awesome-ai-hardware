@@ -94,6 +94,20 @@
 - 日期使用 `YYYY-MM-DD`；
 - 提交前运行 `python scripts/validate_projects.py`。
 
+## Showcase 投稿
+
+即使关联项目尚未正式收录，Showcase & Ideas 也可以保留有价值的 X Post。Showcase 投稿必须提供：
+
+- 规范的 X status URL；
+- 关联的 GitHub 仓库或产品页面（如有）；
+- 发布者是项目作者、项目团队成员还是社区解读者；
+- 页面实际显示的媒体类型，以及原始媒体上下文链接；
+- 用中英文客观概括帖子中的思路、过程、取舍或演示。
+
+Showcase 按帖子发布日期所在月份整理，而不是发现或投稿日期。不要根据宣传语推测作者关系，也不要把社区转述写成项目官方发布。媒体必须保留在原始 X、YouTube 或项目页面。
+
+提交 Showcase 变更前运行 `python scripts/validate_showcases.py`。
+
 ## 排序与公平性
 
 分类内默认按项目名称排序。Stars、融资、品牌关系和在 X 上的热度不决定收录或排序。维护者、贡献者和项目作者之间的利益关系必须公开。

@@ -29,6 +29,89 @@
       "tags": ["doorbell", "home-assistant", "vision-language-model"]
     },
     {
+      "id": "anima",
+      "name": "Anima",
+      "repo_url": "https://github.com/Fullive-AI/Anima",
+      "category": "smart-home-iot",
+      "description_zh": "在本地网络运行 LangGraph Agent OS，自动发现米家设备，并结合环境状态、长期记忆和设备技能规划真实控制动作。",
+      "description_en": "Runs a local LangGraph agent OS that discovers Mi Home devices and combines environment state, long-term memory, and device skills to plan real control actions.",
+      "ai_role": "An LLM brain combines device state, learned preferences, memory, and per-device skills to plan actions.",
+      "hardware_role": "Local adapters discover, read, and control Mi Home devices including lights, air conditioners, humidifiers, and purifiers.",
+      "license": "Apache-2.0",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "image",
+          "title": "Anima smart-home dashboard",
+          "url": "https://github.com/Fullive-AI/Anima/blob/main/docs/images/bedroom.svg"
+        },
+        {
+          "type": "docs",
+          "title": "Architecture documentation",
+          "url": "https://github.com/Fullive-AI/Anima/tree/main/docs"
+        }
+      ],
+      "tags": ["agent", "local-first", "mi-home"]
+    },
+    {
+      "id": "autonomous-computer",
+      "name": "Autonomous Computer",
+      "repo_url": "https://github.com/autonomous-ai/autonomous-computer",
+      "category": "edge-ai",
+      "description_zh": "提供 2、4、8 GPU 本地 AI 电脑的开放 BOM、CAD、装配照片、BIOS 设置和多档完整构建指南。",
+      "description_en": "Provides open BOMs, CAD, assembly photos, BIOS settings, and complete build guides for local AI computers with two, four, or eight GPUs.",
+      "ai_role": "The systems are sized and configured to run, serve, or fine-tune open language models through local inference software.",
+      "hardware_role": "Open multi-GPU workstation designs specify every component, enclosure, cooling path, power system, and assembly step.",
+      "license": "MIT",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "source_url": "https://x.com/dee_hw/status/2065803429071765819",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Personal AI Computer build showcase",
+          "url": "https://x.com/dee_hw/status/2065803426429346115"
+        },
+        {
+          "type": "video",
+          "title": "Repository build video",
+          "url": "https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a"
+        }
+      ],
+      "tags": ["gpu", "local-ai", "open-hardware"]
+    },
+    {
+      "id": "cyclo-intelligence",
+      "name": "Cyclo Intelligence",
+      "repo_url": "https://github.com/ROBOTIS-GIT/cyclo_intelligence",
+      "category": "robotics",
+      "description_zh": "为 ROBOTIS AI Worker 提供物理 AI 数据采集、数据转换、策略训练、推理和真机执行平台，并支持 Behavior Tree 与 VLA 混合控制。",
+      "description_en": "Provides physical-AI data recording, conversion, policy training, inference, and robot execution for ROBOTIS AI Worker, including Behavior Tree and VLA hybrid control.",
+      "ai_role": "Learned policies and VLA components handle perception and actions while Behavior Trees orchestrate long-horizon task logic.",
+      "hardware_role": "The runtime records data from and deploys trained policies to ROBOTIS AI Worker robots through ROS 2 packages.",
+      "license": "Apache-2.0",
+      "added_at": "2026-08-01",
+      "discovered_at": "2026-08-01",
+      "source_url": "https://x.com/passionvirus/status/2074051976133046428",
+      "last_verified": "2026-08-01",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Behavior Tree and VLA hybrid-control demo",
+          "url": "https://youtu.be/jRcUuwxFk_Y"
+        },
+        {
+          "type": "docs",
+          "title": "Behavior Tree documentation",
+          "url": "https://docs.robotis.com/docs/systems/aiworker/advanced_features/behavior_trees/"
+        }
+      ],
+      "tags": ["behavior-tree", "physical-ai", "vla"]
+    },
+    {
       "id": "esp32-ai",
       "name": "ESP32 AI",
       "repo_url": "https://github.com/slvDev/esp32-ai",

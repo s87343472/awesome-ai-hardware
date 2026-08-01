@@ -21,3 +21,5 @@ jobs:
         run: python scripts/validate_projects.py
       - name: Validate bilingual documentation
         run: python scripts/validate_docs.py
+      - name: Validate showcase data
+        run: python scripts/validate_showcases.py

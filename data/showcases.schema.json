@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Awesome AI Hardware showcases",
+  "type": "object",
+  "required": ["showcases"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "showcases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id", "title_en", "title_zh", "post_url", "post_author",
+          "relationship", "published_at", "media_type", "media_url",
+          "category", "catalog_status", "summary_en", "summary_zh", "linked_repos"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "title_en": { "type": "string", "minLength": 1 },
+          "title_zh": { "type": "string", "minLength": 1 },
+          "post_url": { "type": "string", "pattern": "^https://x\\.com/[^/]+/status/[0-9]+$" },
+          "post_author": { "type": "string", "minLength": 1 },
+          "relationship": { "enum": ["author", "project-team", "community"] },
+          "published_at": { "type": "string", "format": "date" },
+          "media_type": { "enum": ["image", "video", "thread"] },
+          "media_url": { "type": "string", "format": "uri" },
+          "category": {
+            "enum": [
+              "smart-home-iot", "wearables", "voice-companions", "robotics",
+              "edge-ai", "protocols-infrastructure", "creative-hardware"
+            ]
+          },
+          "catalog_status": { "enum": ["listed", "deferred", "showcase-only"] },
+          "summary_en": { "type": "string", "minLength": 10 },
+          "summary_zh": { "type": "string", "minLength": 10 },
+          "linked_repos": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^https://github\\.com/[^/]+/[^/]+/?$" },
+            "uniqueItems": true
+          },
+          "related_urls": {
+            "type": "array",
+            "items": { "type": "string", "format": "uri" },
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  }
+}

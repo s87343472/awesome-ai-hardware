@@ -1,0 +1,62 @@
+name: Showcase submission / Showcase 投稿
+description: Recommend an X post with ideas, process, images, or video / 推荐包含思路、过程或媒体的 X Post
+title: "[Showcase]: "
+labels:
+  - showcase
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit one canonical X status URL per Issue. A showcase is reviewed separately from formal project inclusion.
+        一次 Issue 只提交一个规范 X Post；Showcase 与正式项目收录分别审核。
+  - type: input
+    id: post
+    attributes:
+      label: X Post URL
+      placeholder: https://x.com/username/status/123456789
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Related repository or project URL / 关联仓库或项目 URL
+      description: Optional when the post is an idea without an open-source repository. / 如果只是没有开源仓库的灵感案例，可以留空。
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Poster's relationship / 发布者与项目的关系
+      options:
+        - Project author / 项目作者
+        - Project-team member / 项目团队成员
+        - Community explanation or recommendation / 社区解读或推荐
+        - Unknown / 无法确认
+    validations:
+      required: true
+  - type: dropdown
+    id: media
+    attributes:
+      label: Visible media / 页面实际媒体
+      options:
+        - Video / 视频
+        - Image / 图片
+        - Thread with media / 含媒体的线程
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why this showcase is valuable / 为什么值得展示
+      description: Summarize the idea, process, trade-off, problem, or real-world result shown in the post. / 概括帖子中的思路、过程、取舍、问题或实际效果。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission confirmation / 投稿确认
+      options:
+        - label: I opened the post and confirmed that its media is visible. / 我已打开帖子并确认媒体可见。
+          required: true
+        - label: I disclosed the poster's relationship without presenting a community post as an official announcement. / 我没有把社区转述冒充官方发布。
+          required: true
+        - label: I searched the showcase archive and found no duplicate. / 我已确认 Showcase 中没有重复条目。
+          required: true

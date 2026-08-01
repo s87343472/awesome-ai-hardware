@@ -8,6 +8,7 @@ This archive records batch-level verification decisions for submitted projects. 
 
 ### 2026
 
+- [2026-08-01 — X Showcase batch](2026-08-01-showcase-batch.md)
 - [2026-08-01 — Initial Grok batches](2026-08-01-initial-batch.md)
 
 ## 简体中文
@@ -16,4 +17,5 @@ This archive records batch-level verification decisions for submitted projects. 
 
 ### 2026
 
+- [2026-08-01 — X Showcase 批次](2026-08-01-showcase-batch.md)
 - [2026-08-01 — 首批 Grok 候选项目](2026-08-01-initial-batch.md)

@@ -19,6 +19,7 @@ Closes #
 - [ ] Media links point to original sources; unlicensed material is not rehosted. / 媒体链接指向原始来源，未重新托管未经授权的素材。
 - [ ] The change contains no promotional language, unverifiable claims, or duplicate projects. / 没有广告语、无法核验的声明或重复项目。
 - [ ] I ran `python scripts/validate_projects.py`. / 我已运行数据校验脚本。
+- [ ] Showcase changes update `data/showcases.json` and the publication-month page, and pass `python scripts/validate_showcases.py`. / Showcase 变更同步更新结构化数据与帖子发布月份页面，并通过校验。
 
 ## Relationship disclosure / 利益关系
 

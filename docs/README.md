@@ -14,6 +14,7 @@ This index links every public-facing guide in both supported languages.
 | Code of Conduct | [English](../CODE_OF_CONDUCT.md) | [中文](../CODE_OF_CONDUCT.zh-CN.md) |
 | Security policy | [English](../SECURITY.md) | [中文](../SECURITY.zh-CN.md) |
 | Collection timeline | [Bilingual timeline](../timeline/README.md) | [双语时间线](../timeline/README.md) |
+| Showcase & Ideas | [Bilingual showcase](../showcase/README.md) | [双语展示与灵感](../showcase/README.md) |
 | Review archive | [Bilingual archive](../reviews/README.md) | [双语审核记录](../reviews/README.md) |
 | Data schema | [`projects.schema.json`](../data/projects.schema.json) | [`projects.schema.json`](../data/projects.schema.json) |
 
@@ -31,6 +32,7 @@ Repository-maintenance templates under `.github/` are bilingual in a single file
 | 社区行为准则 | [English](../CODE_OF_CONDUCT.md) | [中文](../CODE_OF_CONDUCT.zh-CN.md) |
 | 安全政策 | [English](../SECURITY.md) | [中文](../SECURITY.zh-CN.md) |
 | 收录时间线 | [Bilingual timeline](../timeline/README.md) | [双语时间线](../timeline/README.md) |
+| 展示与灵感 | [Bilingual showcase](../showcase/README.md) | [双语展示与灵感](../showcase/README.md) |
 | 审核记录 | [Bilingual archive](../reviews/README.md) | [双语审核记录](../reviews/README.md) |
 | 数据结构 | [`projects.schema.json`](../data/projects.schema.json) | [`projects.schema.json`](../data/projects.schema.json) |
 

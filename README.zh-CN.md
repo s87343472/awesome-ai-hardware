@@ -17,6 +17,7 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 - [项目分类](#项目分类)
 - [项目列表](#项目列表)
 - [收录时间线](#收录时间线)
+- [展示与灵感](#展示与灵感)
 - [文档索引](#文档索引)
 - [收录标准](#收录标准)
 - [参与贡献](#参与贡献)
@@ -39,11 +40,12 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 ### 智能家居与 IoT
 
 - [AI Doorbell for Home Assistant](https://github.com/nwkuga/ha-ai-doorbell) — 通过视觉语言模型比较真实门铃快照与已标注参考照片，并在 Home Assistant 与 Telegram 中完成识别和纠正。`MIT` · [流程图](https://github.com/nwkuga/ha-ai-doorbell/blob/main/docs/img/04-flow.svg) · [文档](https://github.com/nwkuga/ha-ai-doorbell/tree/main/docs)
-- [Home Generative Agent](https://github.com/goruck/home-generative-agent) — 将 LangGraph Agent 集成到 Home Assistant，用云端或本地模型控制实体、创建自动化、分析摄像头并提供异常提醒。`MIT` · [演示](https://github.com/goruck/home-generative-agent/blob/main/assets/create_automation.gif) · [文档](https://github.com/goruck/home-generative-agent/blob/main/docs/installation.md)
+- [Anima](https://github.com/Fullive-AI/Anima) — 在本地运行 LangGraph Agent OS，自动发现米家设备，并结合环境状态、长期记忆和设备技能规划真实控制动作。`Apache-2.0` · [Showcase](https://x.com/GitHub_Daily/status/2068687909839073743) · [文档](https://github.com/Fullive-AI/Anima/tree/main/docs)
+- [Home Generative Agent](https://github.com/goruck/home-generative-agent) — 将 LangGraph Agent 集成到 Home Assistant，用云端或本地模型控制实体、创建自动化、分析摄像头并提供异常提醒。`MIT` · [Showcase](https://x.com/lindostangel/status/2081732515228995858) · [文档](https://github.com/goruck/home-generative-agent/blob/main/docs/installation.md)
 
 ### AI 可穿戴设备
 
-- [Omi](https://github.com/BasedHardware/omi) — 结合开源可穿戴硬件和配套应用，提供实时转写、摘要、行动项提取和个人记忆检索。`MIT` · [文档](https://docs.omi.me/) · [网站](https://omi.me/)
+- [Omi](https://github.com/BasedHardware/omi) — 结合开源可穿戴硬件和配套应用，提供实时转写、摘要、行动项提取和个人记忆检索。`MIT` · [Showcase](https://x.com/CycleDecoded/status/2082693629953659191) · [文档](https://docs.omi.me/)
 
 ### 语音助手与 AI 伴侣
 
@@ -51,18 +53,20 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 
 ### 机器人与具身智能
 
+- [Cyclo Intelligence](https://github.com/ROBOTIS-GIT/cyclo_intelligence) — 为 ROBOTIS AI Worker 提供数据采集、策略训练、推理和真机执行，并支持 Behavior Tree 与 VLA 混合控制。`Apache-2.0` · [Showcase](https://x.com/passionvirus/status/2074051976133046428) · [完整演示](https://youtu.be/jRcUuwxFk_Y)
 - [Open V Robotics System](https://github.com/vahagnmikayelyan/open-v-robotics-system) — 在 SBC 与 Raspberry Pi Pico 之间，通过模块化驱动把受权限控制的 LLM 工具调用路由至电机、摄像头、传感器和其他机器人硬件。`MIT` · [界面](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) · [文档](https://github.com/vahagnmikayelyan/open-v-robotics-system/tree/main/docs)
 
 ### 边缘 AI 与微控制器
 
+- [Autonomous Computer](https://github.com/autonomous-ai/autonomous-computer) — 提供 2、4、8 GPU 本地 AI 电脑的开放 BOM、CAD、装配照片、BIOS 设置和完整构建指南。`MIT` · [Showcase 线程](https://x.com/dee_hw/status/2065803429071765819) · [视频](https://x.com/dee_hw/status/2065803426429346115)
 - [ESP32 AI](https://github.com/slvDev/esp32-ai) — 在 ESP32-S3 上完全离线运行 2890 万参数语言模型，并将生成文本输出到连接的显示屏。`MIT` · [演示](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) · [实验结果](https://github.com/slvDev/esp32-ai/blob/main/RESULTS.md)
 - [Hailo Apps](https://github.com/hailo-ai/hailo-apps) — 为树莓派 5 等平台上的 Hailo 加速器提供可运行的计算机视觉、VLM、LLM 与语音应用。`MIT` · [演示](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) · [文档](https://github.com/hailo-ai/hailo-apps/blob/main/doc/README.md)
-- [PicoLM](https://github.com/RightNow-AI/picolm) — 通过零依赖 C 推理引擎，在低内存 RISC-V 和树莓派设备上运行量化十亿参数 GGUF 模型。`MIT` · [硬件介绍](https://github.com/RightNow-AI/picolm/blob/main/picolm.jpg) · [技术说明](https://github.com/RightNow-AI/picolm/blob/main/BLOG.md)
+- [PicoLM](https://github.com/RightNow-AI/picolm) — 通过零依赖 C 推理引擎，在低内存 RISC-V 和树莓派设备上运行量化十亿参数 GGUF 模型。`MIT` · [Showcase](https://x.com/GitHub_Daily/status/2083183407132254242) · [技术说明](https://github.com/RightNow-AI/picolm/blob/main/BLOG.md)
 
 ### 协议、桥接层与基础设施
 
 - [esprec](https://github.com/tig/esprec) — 通过 ESP32 端组件和 USB 主机工具，让编码 Agent 捕获并检查真实设备屏幕。`Apache-2.0` · [演示](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) · [Agent 指南](https://github.com/tig/esprec/blob/main/AGENTS.md)
-- [mcp2mqtt](https://github.com/mcp2everything/mcp2mqtt) — 把 MCP 工具调用转换成 MQTT 命令，让大模型控制联网灯光、电机和其他设备。`MIT` · [架构图](https://github.com/mcp2everything/mcp2mqtt/blob/main/docs/images/stru_chs.png) · [工作流](https://github.com/mcp2everything/mcp2mqtt/blob/main/docs/images/workflow_chs.png)
+- [mcp2mqtt](https://github.com/mcp2everything/mcp2mqtt) — 把 MCP 工具调用转换成 MQTT 命令，让大模型控制联网灯光、电机和其他设备。`MIT` · [Showcase](https://x.com/GitHub_Daily/status/1946721719349055520) · [架构图](https://github.com/mcp2everything/mcp2mqtt/blob/main/docs/images/stru_chs.png)
 
 通过、暂缓、替代和拒绝项目的完整依据见 [2026-08-01 审核记录](reviews/2026-08-01-initial-batch.md)。
 
@@ -72,9 +76,13 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 
 正式收录日期不等于项目发布日期，也不一定等于项目被发现的日期。
 
+## 展示与灵感
+
+通过 [Showcase & Ideas / 展示与灵感](showcase/README.md) 浏览已核验的 X Post，了解创作者的想法、制作过程、取舍、图片与视频演示。每个条目都会区分项目作者、项目团队和社区解读；即使项目暂缓收录或不符合正式开源目录门槛，有价值的思路仍可留在 Showcase 中。
+
 ## 文档索引
 
-[文档总索引](docs/README.md)集中列出贡献指南、审核指南、社区行为准则和安全政策的英文、简体中文版本。
+[文档总索引](docs/README.md)集中列出贡献指南、审核指南、Showcase、社区行为准则和安全政策的英文、简体中文版本。
 
 ## 收录标准
 
@@ -92,6 +100,7 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 ## 参与贡献
 
 - 推荐项目：使用[项目投稿表单](https://github.com/s87343472/awesome-ai-hardware/issues/new?template=project-submission.yml)
+- 推荐 X Post：使用 [Showcase 投稿表单](https://github.com/s87343472/awesome-ai-hardware/issues/new?template=showcase-submission.yml)
 - 修正或更新已收录项目：直接提交 Pull Request
 - 安全问题：请勿公开披露敏感漏洞，参见[安全政策](SECURITY.zh-CN.md)
 
@@ -99,7 +108,7 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 
 ## 数据与透明度
 
-正式收录的项目也会保存在 [`data/projects.json`](data/projects.json) 中。自动检查会验证必填字段、分类、收录与核验日期、URL、媒体资源、排序和重复项；审核结论会保留在对应的 Issue 或 Pull Request 中。
+正式项目保存在 [`data/projects.json`](data/projects.json)，核验后的 X Post 则单独保存在 [`data/showcases.json`](data/showcases.json)。自动检查会验证必填字段、分类、日期、URL、媒体资源、作者关系、索引、排序和重复项；审核结论会保留在对应的 Issue、Pull Request 或[审核记录](reviews/README.md)中。
 
 ## 免责声明
 

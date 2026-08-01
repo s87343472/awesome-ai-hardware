@@ -30,6 +30,7 @@ INDEXED_CORE_DOCS = {
     "../SECURITY.md",
     "../SECURITY.zh-CN.md",
     "../timeline/README.md",
+    "../showcase/README.md",
     "../reviews/README.md",
 }
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^]]*]\(([^)]+)\)")
@@ -91,6 +92,20 @@ def validate() -> list[str]:
     review_index = read("reviews/README.md") if (ROOT / "reviews/README.md").is_file() else ""
     if "(2026-08-01-initial-batch.md)" not in review_index:
         errors.append("reviews/README.md does not link the initial batch review.")
+    if "(2026-08-01-showcase-batch.md)" not in review_index:
+        errors.append("reviews/README.md does not link the showcase batch review.")
+
+    showcase_index = read("showcase/README.md") if (ROOT / "showcase/README.md").is_file() else ""
+    for year in (2026, 2025):
+        if f"({year}/README.md)" not in showcase_index:
+            errors.append(f"showcase/README.md does not link the {year} index.")
+    showcase_2026 = read("showcase/2026/README.md") if (ROOT / "showcase/2026/README.md").is_file() else ""
+    for month in ("07", "06", "04"):
+        if f"({month}.md)" not in showcase_2026:
+            errors.append(f"showcase/2026/README.md does not link {month}.md.")
+    showcase_2025 = read("showcase/2025/README.md") if (ROOT / "showcase/2025/README.md").is_file() else ""
+    if "(07.md)" not in showcase_2025:
+        errors.append("showcase/2025/README.md does not link 07.md.")
 
     return errors
 

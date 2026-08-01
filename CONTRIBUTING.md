@@ -94,6 +94,20 @@ See the [review guide](docs/REVIEW_GUIDE.md) for the detailed decision process.
 - Use `YYYY-MM-DD` dates.
 - Run `python scripts/validate_projects.py` before submitting.
 
+## Showcase submissions
+
+Showcase & Ideas preserves useful X posts even when the related project is not formally listed. A showcase submission must provide:
+
+- the canonical X status URL;
+- the linked GitHub repository or product page, when one exists;
+- whether the poster is the project author, a project-team member, or a community explainer;
+- the visible media type and a direct link to the original media context;
+- a factual English and Chinese summary of the idea, process, trade-off, or demonstration.
+
+Showcases are grouped by the post's publication month, not the discovery or submission date. Do not infer an author relationship from enthusiastic language, and do not describe a community post as an original announcement. Media must remain on the original X, YouTube, or project-hosted page.
+
+Run `python scripts/validate_showcases.py` before submitting a showcase change.
+
 ## Ordering and fairness
 
 Projects are ordered alphabetically within each category. Stars, funding, brand relationships, and popularity on X do not determine inclusion or ranking. Maintainers, contributors, and authors must disclose relevant relationships.
