@@ -119,8 +119,8 @@ def validate() -> list[str]:
 
         try:
             published = dt.date.fromisoformat(showcase.get("published_at", ""))
-            if published > dt.date.today():
-                errors.append(f"{label}.published_at cannot be in the future.")
+            if published > dt.date.today() + dt.timedelta(days=1):
+                errors.append(f"{label}.published_at cannot be more than one day in the future.")
             sort_keys.append((-published.toordinal(), str(showcase.get("title_en", "")).casefold()))
             monthly_file = ROOT / "showcase" / str(published.year) / f"{published.month:02d}.md"
             if not monthly_file.is_file():

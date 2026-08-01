@@ -123,8 +123,8 @@ def validate() -> list[str]:
                 continue
             try:
                 parsed_dates[field] = dt.date.fromisoformat(project[field])
-                if parsed_dates[field] > dt.date.today():
-                    errors.append(f"{label}.{field} cannot be in the future.")
+                if parsed_dates[field] > dt.date.today() + dt.timedelta(days=1):
+                    errors.append(f"{label}.{field} cannot be more than one day in the future.")
             except (TypeError, ValueError):
                 errors.append(f"{label}.{field} must use YYYY-MM-DD.")
 

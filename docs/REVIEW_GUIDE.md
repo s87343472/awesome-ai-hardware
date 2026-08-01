@@ -33,7 +33,7 @@ Record the following in the Issue or PR:
 
 Do not use a third-party summary as the only evidence for a project's capabilities.
 
-Confirm that `added_at` is the date of formal acceptance, not the post date, repository creation date, or Grok discovery date. Link media to its original source and do not copy unlicensed material.
+Confirm that `added_at` is the maintainer's local date of formal acceptance, not the post date, repository creation date, or Grok discovery date. Automated validation allows a one-day UTC offset so contributors east or west of the CI runner are not rejected at midnight. Link media to its original source and do not copy unlicensed material.
 
 ## 3. Quality signals
 
