@@ -39,34 +39,46 @@ This is not a news feed or an unverified link dump. Every listed project must me
 
 ### Smart Home and IoT
 
-- [AI Doorbell for Home Assistant](https://github.com/nwkuga/ha-ai-doorbell) — Uses a vision-language model to compare real doorbell snapshots with labeled reference photos and handle corrections through Home Assistant and Telegram. `MIT` · [Flow](https://github.com/nwkuga/ha-ai-doorbell/blob/main/docs/img/04-flow.svg) · [Docs](https://github.com/nwkuga/ha-ai-doorbell/tree/main/docs)
-- [Anima](https://github.com/Fullive-AI/Anima) — Runs a local LangGraph agent OS that discovers Mi Home devices and combines environment state, memory, and device skills to plan real control actions. `Apache-2.0` · [Showcase](https://x.com/GitHub_Daily/status/2068687909839073743) · [Docs](https://github.com/Fullive-AI/Anima/tree/main/docs)
-- [Home Generative Agent](https://github.com/goruck/home-generative-agent) — Adds a LangGraph agent to Home Assistant for entity control, automation creation, camera analysis, and anomaly alerts with cloud or local models. `MIT` · [Showcase](https://x.com/lindostangel/status/2081732515228995858) · [Docs](https://github.com/goruck/home-generative-agent/blob/main/docs/installation.md)
+| No. | Name | License | Description | Image / Video | GitHub | X |
+|---:|---|---|---|---|---|---|
+| 1 | AI Doorbell for Home Assistant | MIT | Uses a vision-language model to recognize and correct people from real doorbell snapshots in Home Assistant and Telegram. | [Image](https://github.com/nwkuga/ha-ai-doorbell/blob/main/docs/img/04-flow.svg) | [Repo](https://github.com/nwkuga/ha-ai-doorbell) | — |
+| 2 | Anima | Apache-2.0 | Runs a local agent OS that combines Mi Home device state, memory, and device skills to plan real control actions. | [Image](https://github.com/Fullive-AI/Anima/blob/main/docs/images/bedroom.svg) | [Repo](https://github.com/Fullive-AI/Anima) | [Post](https://x.com/GitHub_Daily/status/2068687909839073743) |
+| 3 | Home Generative Agent | MIT | Adds entity control, automation creation, camera analysis, and anomaly alerts to Home Assistant with cloud or local models. | [Video](https://x.com/lindostangel/status/2081732515228995858) | [Repo](https://github.com/goruck/home-generative-agent) | [Post](https://x.com/lindostangel/status/2081732515228995858) |
 
 ### AI Wearables
 
-- [Omi](https://github.com/BasedHardware/omi) — Combines open-source wearable hardware and companion apps for real-time transcription, summaries, action items, and personal memory retrieval. `MIT` · [Showcase](https://x.com/CycleDecoded/status/2082693629953659191) · [Docs](https://docs.omi.me/)
+| No. | Name | License | Description | Image / Video | GitHub | X |
+|---:|---|---|---|---|---|---|
+| 4 | Omi | MIT | Combines wearable hardware and companion apps for transcription, summaries, action items, and personal memory retrieval. | [Image](https://x.com/CycleDecoded/status/2082693629953659191/photo/1) | [Repo](https://github.com/BasedHardware/omi) | [Post](https://x.com/CycleDecoded/status/2082693629953659191) |
 
 ### Voice Assistants and AI Companions
 
-- [OpenHome Abilities](https://github.com/openhome-dev/abilities) — Provides plugins for OpenHome voice agents, including local abilities that run on Raspberry Pi DevKit hardware and access GPIO and sensors. `MIT` · [Docs](https://docs.openhome.com/) · [DevKit files](https://github.com/openhome-dev/devkit)
+| No. | Name | License | Description | Image / Video | GitHub | X |
+|---:|---|---|---|---|---|---|
+| 5 | OpenHome Abilities | MIT | Provides voice-agent plugins, including local abilities that run on Raspberry Pi DevKit hardware and access GPIO and sensors. | — | [Repo](https://github.com/openhome-dev/abilities) | — |
 
 ### Robotics and Embodied AI
 
-- [Cyclo Intelligence](https://github.com/ROBOTIS-GIT/cyclo_intelligence) — Provides data recording, policy training, inference, and robot execution for ROBOTIS AI Worker, including Behavior Tree and VLA hybrid control. `Apache-2.0` · [Showcase](https://x.com/passionvirus/status/2074051976133046428) · [Full demo](https://youtu.be/jRcUuwxFk_Y)
-- [Open V Robotics System](https://github.com/vahagnmikayelyan/open-v-robotics-system) — Routes permissioned LLM tool calls through modular drivers to motors, cameras, sensors, and other robot hardware across an SBC and Raspberry Pi Pico. `MIT` · [Interface](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) · [Docs](https://github.com/vahagnmikayelyan/open-v-robotics-system/tree/main/docs)
+| No. | Name | License | Description | Image / Video | GitHub | X |
+|---:|---|---|---|---|---|---|
+| 6 | Cyclo Intelligence | Apache-2.0 | Covers data recording, policy training, inference, and ROBOTIS AI Worker execution with Behavior Tree and VLA hybrid control. | [Video](https://youtu.be/jRcUuwxFk_Y) | [Repo](https://github.com/ROBOTIS-GIT/cyclo_intelligence) | [Post](https://x.com/passionvirus/status/2074051976133046428) |
+| 7 | Open V Robotics System | MIT | Routes permissioned LLM tool calls to robot motors, cameras, and sensors across an SBC and Raspberry Pi Pico. | [Image](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) | [Repo](https://github.com/vahagnmikayelyan/open-v-robotics-system) | — |
 
 ### Edge AI and Microcontrollers
 
-- [Autonomous Computer](https://github.com/autonomous-ai/autonomous-computer) — Provides open BOMs, CAD, assembly photos, BIOS settings, and complete build guides for local AI computers with two, four, or eight GPUs. `MIT` · [Showcase thread](https://x.com/dee_hw/status/2065803429071765819) · [Video](https://x.com/dee_hw/status/2065803426429346115)
-- [ESP32 AI](https://github.com/slvDev/esp32-ai) — Runs a 28.9-million-parameter language model fully offline on an ESP32-S3 and writes generated text to an attached display. `MIT` · [Demo](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) · [Results](https://github.com/slvDev/esp32-ai/blob/main/RESULTS.md)
-- [Hailo Apps](https://github.com/hailo-ai/hailo-apps) — Provides runnable computer-vision, VLM, LLM, and speech applications for Hailo accelerators on platforms including Raspberry Pi 5. `MIT` · [Demo](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) · [Docs](https://github.com/hailo-ai/hailo-apps/blob/main/doc/README.md)
-- [PicoLM](https://github.com/RightNow-AI/picolm) — Runs quantized billion-parameter GGUF models through a zero-dependency C engine on low-memory RISC-V and Raspberry Pi devices. `MIT` · [Showcase](https://x.com/GitHub_Daily/status/2083183407132254242) · [Technical notes](https://github.com/RightNow-AI/picolm/blob/main/BLOG.md)
+| No. | Name | License | Description | Image / Video | GitHub | X |
+|---:|---|---|---|---|---|---|
+| 8 | Autonomous Computer | MIT | Provides open BOMs, CAD, assembly material, and build guides for local AI computers with two, four, or eight GPUs. | [Video](https://x.com/dee_hw/status/2065803426429346115) | [Repo](https://github.com/autonomous-ai/autonomous-computer) | [Post](https://x.com/dee_hw/status/2065803429071765819) |
+| 9 | ESP32 AI | MIT | Runs a 28.9-million-parameter language model fully offline on an ESP32-S3 and writes generated text to a display. | [Video](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) | [Repo](https://github.com/slvDev/esp32-ai) | — |
+| 10 | Hailo Apps | MIT | Provides runnable vision, VLM, LLM, and speech applications for Hailo accelerators on platforms including Raspberry Pi 5. | [Video](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) | [Repo](https://github.com/hailo-ai/hailo-apps) | — |
+| 11 | PicoLM | MIT | Runs quantized billion-parameter GGUF models through a zero-dependency C engine on low-memory RISC-V and Raspberry Pi devices. | [Image](https://x.com/GitHub_Daily/status/2083183407132254242/photo/1) | [Repo](https://github.com/RightNow-AI/picolm) | [Post](https://x.com/GitHub_Daily/status/2083183407132254242) |
 
 ### Protocols, Bridges, and Infrastructure
 
-- [esprec](https://github.com/tig/esprec) — Lets coding agents capture and visually validate a real ESP32 screen through an on-device component and USB host tool. `Apache-2.0` · [Demo](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) · [Agent guide](https://github.com/tig/esprec/blob/main/AGENTS.md)
-- [mcp2mqtt](https://github.com/mcp2everything/mcp2mqtt) — Converts MCP tool calls into MQTT commands so language models can control connected lights, motors, and other devices. `MIT` · [Showcase](https://x.com/GitHub_Daily/status/1946721719349055520) · [Architecture](https://github.com/mcp2everything/mcp2mqtt/blob/main/docs/images/stru_eng.PNG)
+| No. | Name | License | Description | Image / Video | GitHub | X |
+|---:|---|---|---|---|---|---|
+| 12 | esprec | Apache-2.0 | Lets coding agents capture and visually validate a real ESP32 screen through an on-device component and USB host tool. | [Video](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [Repo](https://github.com/tig/esprec) | — |
+| 13 | mcp2mqtt | MIT | Converts MCP tool calls into MQTT commands so language models can control connected lights, motors, and other devices. | [Image](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [Repo](https://github.com/mcp2everything/mcp2mqtt) | [Post](https://x.com/GitHub_Daily/status/1946721719349055520) |
 
 See the [2026-08-01 review record](reviews/2026-08-01-initial-batch.md) for accepted, deferred, superseded, and rejected candidates.
 
