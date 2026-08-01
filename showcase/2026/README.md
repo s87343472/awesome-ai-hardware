@@ -4,6 +4,8 @@
 
 Monthly pages are ordered newest first. / 月度页面按时间倒序排列。
 
+- [August / 八月](08.md)
 - [July / 七月](07.md)
 - [June / 六月](06.md)
 - [April / 四月](04.md)
+- [January / 一月](01.md)

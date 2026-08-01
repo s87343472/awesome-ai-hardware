@@ -49,38 +49,41 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 4 | Omi | MIT | 结合可穿戴硬件和配套应用，提供转写、摘要、行动项提取和个人记忆检索。 | [图片](https://x.com/CycleDecoded/status/2082693629953659191/photo/1) | [仓库](https://github.com/BasedHardware/omi) | [帖子](https://x.com/CycleDecoded/status/2082693629953659191) |
+| 4 | LightMem-Ego | MIT | 把 Rokid AI 眼镜的第一视角摄像头与音频流组织成可查询的分层多模态记忆。 | [图片](https://github.com/zjunlp/LightMem-Ego/blob/main/figs/thumbnail.png) | [仓库](https://github.com/zjunlp/LightMem-Ego) | [帖子](https://x.com/aigclink/status/2079059418168311813) |
+| 5 | Omi | MIT | 结合可穿戴硬件和配套应用，提供转写、摘要、行动项提取和个人记忆检索。 | [图片](https://x.com/CycleDecoded/status/2082693629953659191/photo/1) | [仓库](https://github.com/BasedHardware/omi) | [帖子](https://x.com/CycleDecoded/status/2082693629953659191) |
 
 ### 语音助手与 AI 伴侣
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 5 | OpenHome Abilities | MIT | 为语音 Agent 提供插件，本地 Ability 可运行在 Raspberry Pi DevKit 上并访问 GPIO 与传感器。 | — | [仓库](https://github.com/openhome-dev/abilities) | — |
+| 6 | OpenHome Abilities | MIT | 为语音 Agent 提供插件，本地 Ability 可运行在 Raspberry Pi DevKit 上并访问 GPIO 与传感器。 | — | [仓库](https://github.com/openhome-dev/abilities) | — |
 
 ### 机器人与具身智能
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 6 | Cyclo Intelligence | Apache-2.0 | 覆盖 ROBOTIS AI Worker 数据采集、策略训练、推理和真机执行，支持 Behavior Tree 与 VLA 混合控制。 | [视频](https://youtu.be/jRcUuwxFk_Y) | [仓库](https://github.com/ROBOTIS-GIT/cyclo_intelligence) | [帖子](https://x.com/passionvirus/status/2074051976133046428) |
-| 7 | Open V Robotics System | MIT | 在 SBC 与 Raspberry Pi Pico 之间，把受权限控制的 LLM 工具调用路由至电机、摄像头和传感器。 | [图片](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) | [仓库](https://github.com/vahagnmikayelyan/open-v-robotics-system) | — |
+| 7 | Cyclo Intelligence | Apache-2.0 | 覆盖 ROBOTIS AI Worker 数据采集、策略训练、推理和真机执行，支持 Behavior Tree 与 VLA 混合控制。 | [视频](https://youtu.be/jRcUuwxFk_Y) | [仓库](https://github.com/ROBOTIS-GIT/cyclo_intelligence) | [帖子](https://x.com/passionvirus/status/2074051976133046428) |
+| 8 | Open V Robotics System | MIT | 在 SBC 与 Raspberry Pi Pico 之间，把受权限控制的 LLM 工具调用路由至电机、摄像头和传感器。 | [图片](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) | [仓库](https://github.com/vahagnmikayelyan/open-v-robotics-system) | — |
+| 9 | OpenArm | Apache-2.0 + 组件许可证 | 提供顺应性人形机械臂及开放 CAD、控制、遥操作、数据集、MuJoCo 与 Isaac Lab 物理 AI 栈。 | [视频](https://x.com/lukas_m_ziegler/status/2043595780695457957) | [仓库](https://github.com/enactic/OpenArm) | [帖子](https://x.com/lukas_m_ziegler/status/2043595780695457957) |
+| 10 | reBot-DevArm | CERN-OHL-W-2.0 | 开放机械臂结构和 BOM，并连接 ROS、Isaac Sim、LeRobot 与视觉抓取工作流。 | [图片](https://x.com/IlirAliu_/status/2040702009720881214/photo/1) | [仓库](https://github.com/Seeed-Projects/reBot-DevArm) | [帖子](https://x.com/IlirAliu_/status/2040702009720881214) |
 
 ### 边缘 AI 与微控制器
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 8 | Autonomous Computer | MIT | 提供 2、4、8 GPU 本地 AI 电脑的开放 BOM、CAD、装配资料和完整构建指南。 | [视频](https://x.com/dee_hw/status/2065803426429346115) | [仓库](https://github.com/autonomous-ai/autonomous-computer) | [帖子](https://x.com/dee_hw/status/2065803429071765819) |
-| 9 | ESP32 AI | MIT | 在 ESP32-S3 上完全离线运行 2890 万参数语言模型，并将生成文本输出到显示屏。 | [视频](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) | [仓库](https://github.com/slvDev/esp32-ai) | — |
-| 10 | Hailo Apps | MIT | 为树莓派 5 等平台上的 Hailo 加速器提供可运行的视觉、VLM、LLM 与语音应用。 | [视频](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) | [仓库](https://github.com/hailo-ai/hailo-apps) | — |
-| 11 | PicoLM | MIT | 通过零依赖 C 推理引擎，在低内存 RISC-V 和树莓派设备上运行量化十亿参数 GGUF 模型。 | [图片](https://x.com/GitHub_Daily/status/2083183407132254242/photo/1) | [仓库](https://github.com/RightNow-AI/picolm) | [帖子](https://x.com/GitHub_Daily/status/2083183407132254242) |
+| 11 | Autonomous Computer | MIT | 提供 2、4、8 GPU 本地 AI 电脑的开放 BOM、CAD、装配资料和完整构建指南。 | [视频](https://x.com/dee_hw/status/2065803426429346115) | [仓库](https://github.com/autonomous-ai/autonomous-computer) | [帖子](https://x.com/dee_hw/status/2065803429071765819) |
+| 12 | ESP32 AI | MIT | 在 ESP32-S3 上完全离线运行 2890 万参数语言模型，并将生成文本输出到显示屏。 | [视频](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) | [仓库](https://github.com/slvDev/esp32-ai) | [帖子](https://x.com/GithubAwesome/status/2081550211990569069) |
+| 13 | Hailo Apps | MIT | 为树莓派 5 等平台上的 Hailo 加速器提供可运行的视觉、VLM、LLM 与语音应用。 | [视频](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) | [仓库](https://github.com/hailo-ai/hailo-apps) | — |
+| 14 | PicoLM | MIT | 通过零依赖 C 推理引擎，在低内存 RISC-V 和树莓派设备上运行量化十亿参数 GGUF 模型。 | [图片](https://x.com/GitHub_Daily/status/2083183407132254242/photo/1) | [仓库](https://github.com/RightNow-AI/picolm) | [帖子](https://x.com/GitHub_Daily/status/2083183407132254242) |
 
 ### 协议、桥接层与基础设施
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 12 | esprec | Apache-2.0 | 通过 ESP32 端组件和 USB 主机工具，让编码 Agent 捕获并检查真实设备屏幕。 | [视频](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [仓库](https://github.com/tig/esprec) | — |
-| 13 | mcp2mqtt | MIT | 把 MCP 工具调用转换成 MQTT 命令，让大模型控制联网灯光、电机和其他设备。 | [图片](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [仓库](https://github.com/mcp2everything/mcp2mqtt) | [帖子](https://x.com/GitHub_Daily/status/1946721719349055520) |
+| 15 | esprec | Apache-2.0 | 通过 ESP32 端组件和 USB 主机工具，让编码 Agent 捕获并检查真实设备屏幕。 | [视频](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [仓库](https://github.com/tig/esprec) | — |
+| 16 | mcp2mqtt | MIT | 把 MCP 工具调用转换成 MQTT 命令，让大模型控制联网灯光、电机和其他设备。 | [图片](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [仓库](https://github.com/mcp2everything/mcp2mqtt) | [帖子](https://x.com/GitHub_Daily/status/1946721719349055520) |
 
-通过、暂缓、替代和拒绝项目的完整依据见 [2026-08-01 审核记录](reviews/2026-08-01-initial-batch.md)。
+通过、暂缓、替代和拒绝项目的完整依据见 [2026-08-02 扩展审核](reviews/2026-08-02-extended-showcase-batch.md)和 [2026-08-01 初始审核](reviews/2026-08-01-initial-batch.md)。
 
 ## 收录时间线
 

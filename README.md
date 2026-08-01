@@ -49,38 +49,41 @@ This is not a news feed or an unverified link dump. Every listed project must me
 
 | No. | Name | License | Description | Image / Video | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 4 | Omi | MIT | Combines wearable hardware and companion apps for transcription, summaries, action items, and personal memory retrieval. | [Image](https://x.com/CycleDecoded/status/2082693629953659191/photo/1) | [Repo](https://github.com/BasedHardware/omi) | [Post](https://x.com/CycleDecoded/status/2082693629953659191) |
+| 4 | LightMem-Ego | MIT | Turns first-person camera and audio streams from Rokid AI glasses into hierarchical multimodal memory that users can query. | [Image](https://github.com/zjunlp/LightMem-Ego/blob/main/figs/thumbnail.png) | [Repo](https://github.com/zjunlp/LightMem-Ego) | [Post](https://x.com/aigclink/status/2079059418168311813) |
+| 5 | Omi | MIT | Combines wearable hardware and companion apps for transcription, summaries, action items, and personal memory retrieval. | [Image](https://x.com/CycleDecoded/status/2082693629953659191/photo/1) | [Repo](https://github.com/BasedHardware/omi) | [Post](https://x.com/CycleDecoded/status/2082693629953659191) |
 
 ### Voice Assistants and AI Companions
 
 | No. | Name | License | Description | Image / Video | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 5 | OpenHome Abilities | MIT | Provides voice-agent plugins, including local abilities that run on Raspberry Pi DevKit hardware and access GPIO and sensors. | — | [Repo](https://github.com/openhome-dev/abilities) | — |
+| 6 | OpenHome Abilities | MIT | Provides voice-agent plugins, including local abilities that run on Raspberry Pi DevKit hardware and access GPIO and sensors. | — | [Repo](https://github.com/openhome-dev/abilities) | — |
 
 ### Robotics and Embodied AI
 
 | No. | Name | License | Description | Image / Video | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 6 | Cyclo Intelligence | Apache-2.0 | Covers data recording, policy training, inference, and ROBOTIS AI Worker execution with Behavior Tree and VLA hybrid control. | [Video](https://youtu.be/jRcUuwxFk_Y) | [Repo](https://github.com/ROBOTIS-GIT/cyclo_intelligence) | [Post](https://x.com/passionvirus/status/2074051976133046428) |
-| 7 | Open V Robotics System | MIT | Routes permissioned LLM tool calls to robot motors, cameras, and sensors across an SBC and Raspberry Pi Pico. | [Image](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) | [Repo](https://github.com/vahagnmikayelyan/open-v-robotics-system) | — |
+| 7 | Cyclo Intelligence | Apache-2.0 | Covers data recording, policy training, inference, and ROBOTIS AI Worker execution with Behavior Tree and VLA hybrid control. | [Video](https://youtu.be/jRcUuwxFk_Y) | [Repo](https://github.com/ROBOTIS-GIT/cyclo_intelligence) | [Post](https://x.com/passionvirus/status/2074051976133046428) |
+| 8 | Open V Robotics System | MIT | Routes permissioned LLM tool calls to robot motors, cameras, and sensors across an SBC and Raspberry Pi Pico. | [Image](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) | [Repo](https://github.com/vahagnmikayelyan/open-v-robotics-system) | — |
+| 9 | OpenArm | Apache-2.0 + component licenses | Provides a compliant humanoid arm and open CAD, control, teleoperation, datasets, MuJoCo, and Isaac Lab stacks for physical-AI research. | [Video](https://x.com/lukas_m_ziegler/status/2043595780695457957) | [Repo](https://github.com/enactic/OpenArm) | [Post](https://x.com/lukas_m_ziegler/status/2043595780695457957) |
+| 10 | reBot-DevArm | CERN-OHL-W-2.0 | Opens the robotic-arm structure and BOM while connecting ROS, Isaac Sim, LeRobot, and visual-grasping workflows. | [Image](https://x.com/IlirAliu_/status/2040702009720881214/photo/1) | [Repo](https://github.com/Seeed-Projects/reBot-DevArm) | [Post](https://x.com/IlirAliu_/status/2040702009720881214) |
 
 ### Edge AI and Microcontrollers
 
 | No. | Name | License | Description | Image / Video | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 8 | Autonomous Computer | MIT | Provides open BOMs, CAD, assembly material, and build guides for local AI computers with two, four, or eight GPUs. | [Video](https://x.com/dee_hw/status/2065803426429346115) | [Repo](https://github.com/autonomous-ai/autonomous-computer) | [Post](https://x.com/dee_hw/status/2065803429071765819) |
-| 9 | ESP32 AI | MIT | Runs a 28.9-million-parameter language model fully offline on an ESP32-S3 and writes generated text to a display. | [Video](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) | [Repo](https://github.com/slvDev/esp32-ai) | — |
-| 10 | Hailo Apps | MIT | Provides runnable vision, VLM, LLM, and speech applications for Hailo accelerators on platforms including Raspberry Pi 5. | [Video](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) | [Repo](https://github.com/hailo-ai/hailo-apps) | — |
-| 11 | PicoLM | MIT | Runs quantized billion-parameter GGUF models through a zero-dependency C engine on low-memory RISC-V and Raspberry Pi devices. | [Image](https://x.com/GitHub_Daily/status/2083183407132254242/photo/1) | [Repo](https://github.com/RightNow-AI/picolm) | [Post](https://x.com/GitHub_Daily/status/2083183407132254242) |
+| 11 | Autonomous Computer | MIT | Provides open BOMs, CAD, assembly material, and build guides for local AI computers with two, four, or eight GPUs. | [Video](https://x.com/dee_hw/status/2065803426429346115) | [Repo](https://github.com/autonomous-ai/autonomous-computer) | [Post](https://x.com/dee_hw/status/2065803429071765819) |
+| 12 | ESP32 AI | MIT | Runs a 28.9-million-parameter language model fully offline on an ESP32-S3 and writes generated text to a display. | [Video](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) | [Repo](https://github.com/slvDev/esp32-ai) | [Post](https://x.com/GithubAwesome/status/2081550211990569069) |
+| 13 | Hailo Apps | MIT | Provides runnable vision, VLM, LLM, and speech applications for Hailo accelerators on platforms including Raspberry Pi 5. | [Video](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) | [Repo](https://github.com/hailo-ai/hailo-apps) | — |
+| 14 | PicoLM | MIT | Runs quantized billion-parameter GGUF models through a zero-dependency C engine on low-memory RISC-V and Raspberry Pi devices. | [Image](https://x.com/GitHub_Daily/status/2083183407132254242/photo/1) | [Repo](https://github.com/RightNow-AI/picolm) | [Post](https://x.com/GitHub_Daily/status/2083183407132254242) |
 
 ### Protocols, Bridges, and Infrastructure
 
 | No. | Name | License | Description | Image / Video | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 12 | esprec | Apache-2.0 | Lets coding agents capture and visually validate a real ESP32 screen through an on-device component and USB host tool. | [Video](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [Repo](https://github.com/tig/esprec) | — |
-| 13 | mcp2mqtt | MIT | Converts MCP tool calls into MQTT commands so language models can control connected lights, motors, and other devices. | [Image](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [Repo](https://github.com/mcp2everything/mcp2mqtt) | [Post](https://x.com/GitHub_Daily/status/1946721719349055520) |
+| 15 | esprec | Apache-2.0 | Lets coding agents capture and visually validate a real ESP32 screen through an on-device component and USB host tool. | [Video](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [Repo](https://github.com/tig/esprec) | — |
+| 16 | mcp2mqtt | MIT | Converts MCP tool calls into MQTT commands so language models can control connected lights, motors, and other devices. | [Image](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [Repo](https://github.com/mcp2everything/mcp2mqtt) | [Post](https://x.com/GitHub_Daily/status/1946721719349055520) |
 
-See the [2026-08-01 review record](reviews/2026-08-01-initial-batch.md) for accepted, deferred, superseded, and rejected candidates.
+See the [2026-08-02 extended review](reviews/2026-08-02-extended-showcase-batch.md) and [2026-08-01 initial review](reviews/2026-08-01-initial-batch.md) for accepted, deferred, superseded, and rejected candidates.
 
 ## Timeline
 

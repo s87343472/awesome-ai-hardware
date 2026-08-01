@@ -220,6 +220,34 @@
       "tags": ["agent", "home-assistant", "local-llm"]
     },
     {
+      "id": "lightmem-ego",
+      "name": "LightMem-Ego",
+      "repo_url": "https://github.com/zjunlp/LightMem-Ego",
+      "category": "wearables",
+      "description_zh": "连接 Rokid AI 眼镜、浏览器前端和在线后端，将第一视角摄像头与音频流组织成可查询的分层多模态记忆。",
+      "description_en": "Connects Rokid AI glasses, a browser frontend, and an online backend to organize first-person camera and audio streams into queryable hierarchical multimodal memory.",
+      "ai_role": "LLMs, embeddings, and current, short-term, and long-term memory layers answer questions over live and historical egocentric context.",
+      "hardware_role": "A Rokid AI Glass Android app captures first-person camera and microphone streams and renders answers in a glasses-friendly interface.",
+      "license": "MIT",
+      "added_at": "2026-08-02",
+      "discovered_at": "2026-08-02",
+      "source_url": "https://x.com/aigclink/status/2079059418168311813",
+      "last_verified": "2026-08-02",
+      "resources": [
+        {
+          "type": "image",
+          "title": "LightMem-Ego overview",
+          "url": "https://github.com/zjunlp/LightMem-Ego/blob/main/figs/thumbnail.png"
+        },
+        {
+          "type": "docs",
+          "title": "Rokid AI Glass application",
+          "url": "https://github.com/zjunlp/LightMem-Ego/tree/main/src/ai_glass_app"
+        }
+      ],
+      "tags": ["ai-glasses", "memory", "multimodal"]
+    },
+    {
       "id": "mcp2mqtt",
       "name": "mcp2mqtt",
       "repo_url": "https://github.com/mcp2everything/mcp2mqtt",
@@ -301,6 +329,34 @@
       "tags": ["embodied-ai", "raspberry-pi", "robotics"]
     },
     {
+      "id": "openarm",
+      "name": "OpenArm",
+      "repo_url": "https://github.com/enactic/OpenArm",
+      "category": "robotics",
+      "description_zh": "面向物理 AI 研究的开源 7 自由度人形机械臂，提供硬件 CAD、控制、遥操作、数据集、MuJoCo 与 Isaac Lab 训练栈。",
+      "description_en": "An open-source 7-DOF humanoid arm for physical-AI research with hardware CAD, control, teleoperation, datasets, MuJoCo, and Isaac Lab training stacks.",
+      "ai_role": "Simulation, dataset, imitation-learning, and inference components support training and deploying manipulation policies.",
+      "hardware_role": "Backdrivable compliant arms, force-feedback teleoperation, cameras, CAN control, and open CAD provide the physical manipulation platform.",
+      "license": "Apache-2.0 (project index; component licenses documented)",
+      "added_at": "2026-08-02",
+      "discovered_at": "2026-08-02",
+      "source_url": "https://x.com/lukas_m_ziegler/status/2043595780695457957",
+      "last_verified": "2026-08-02",
+      "resources": [
+        {
+          "type": "video",
+          "title": "OpenArm build and operation showcase",
+          "url": "https://x.com/lukas_m_ziegler/status/2043595780695457957"
+        },
+        {
+          "type": "docs",
+          "title": "OpenArm documentation",
+          "url": "https://docs.openarm.dev/"
+        }
+      ],
+      "tags": ["humanoid-arm", "imitation-learning", "physical-ai"]
+    },
+    {
       "id": "openhome-abilities",
       "name": "OpenHome Abilities",
       "repo_url": "https://github.com/openhome-dev/abilities",
@@ -353,6 +409,34 @@
         }
       ],
       "tags": ["llm", "raspberry-pi", "risc-v"]
+    },
+    {
+      "id": "rebot-devarm",
+      "name": "reBot-DevArm",
+      "repo_url": "https://github.com/Seeed-Projects/reBot-DevArm",
+      "category": "robotics",
+      "description_zh": "开放机械臂结构文件、BOM 与装配资料，并连接 ROS、Isaac Sim、LeRobot 和视觉抓取工作流，降低具身 AI 实验门槛。",
+      "description_en": "Opens robotic-arm structure files, BOMs, and assembly material while connecting ROS, Isaac Sim, LeRobot, and visual-grasping workflows for embodied-AI experiments.",
+      "ai_role": "LeRobot training, Isaac Sim workflows, and depth-camera visual grasping connect learned perception and manipulation to the arm.",
+      "hardware_role": "Open STEP files, printable parts, BOMs, motor variants, grippers, and assembly guides define reproducible physical arms.",
+      "license": "CERN-OHL-W-2.0",
+      "added_at": "2026-08-02",
+      "discovered_at": "2026-08-02",
+      "source_url": "https://x.com/IlirAliu_/status/2040702009720881214",
+      "last_verified": "2026-08-02",
+      "resources": [
+        {
+          "type": "image",
+          "title": "reBot-DevArm showcase",
+          "url": "https://x.com/IlirAliu_/status/2040702009720881214/photo/1"
+        },
+        {
+          "type": "docs",
+          "title": "reBot-DevArm hardware files",
+          "url": "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/hardware"
+        }
+      ],
+      "tags": ["embodied-ai", "lerobot", "robot-arm"]
     }
   ]
 }
