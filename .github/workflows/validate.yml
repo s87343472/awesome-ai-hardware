@@ -19,3 +19,5 @@ jobs:
           python-version: "3.12"
       - name: Validate project data
         run: python scripts/validate_projects.py
+      - name: Validate bilingual documentation
+        run: python scripts/validate_docs.py

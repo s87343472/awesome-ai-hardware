@@ -1,111 +1,113 @@
-# 贡献指南
+# Contributing Guide
 
-感谢你帮助维护 Awesome AI Hardware。投稿的目标不是证明项目“很酷”，而是让其他人能够核验它确实把 AI 与硬件结合，并判断是否值得尝试。
+**English** | [简体中文](CONTRIBUTING.zh-CN.md) · [Documentation index](docs/README.md)
 
-## 最快的投稿方式
+Thank you for helping maintain Awesome AI Hardware. A submission should give other people enough public evidence to verify that a project genuinely combines AI with hardware and decide whether it is worth exploring.
 
-打开“项目投稿”Issue，填写：
+## Quick submission
 
-- GitHub 仓库 URL
-- 一句话说明
-- AI 的具体作用
-- 硬件的具体作用
-- 开源许可证
-- 原始分享、演示或文档 URL（如有）
-- 原始图片、视频、Demo 或文章 URL（如有）
-- 建议分类和标签
+Open a project submission Issue and provide:
 
-一次 Issue 只提交一个项目。项目作者可以提交自己的项目，但必须披露关系。
+- GitHub repository URL
+- One-sentence description
+- The specific role of AI
+- The specific role of hardware
+- Open-source license
+- Original post, demo, or documentation URL, when available
+- Original image, video, demo, or article URLs, when available
+- Suggested category and tags
 
-## 强制门槛
+Submit one project per Issue. Project authors may submit their own work but must disclose the relationship.
 
-以下条件必须全部满足：
+## Mandatory requirements
 
-### 1. 可访问的实现
+Every requirement below must be satisfied.
 
-必须存在公开的源代码仓库，且不能只有产品介绍、截图、等待列表或预编译文件。
+### 1. Accessible implementation
 
-### 2. AI 是核心能力
+A public source repository must contain an actual implementation, not only a product page, screenshots, a waitlist, or prebuilt binaries.
 
-仓库需要能证明使用了以下至少一种能力：LLM、VLM、语音模型、生成模型、机器学习推理或自主 Agent。仅使用普通规则、远程控制、语音关键词或把“AI”写在标题中不够。
+### 2. AI is a core capability
 
-### 3. 与真实硬件直接相关
+The repository must demonstrate at least one of the following in its core execution path: an LLM, VLM, speech model, generative model, machine-learning inference, or autonomous agent. Ordinary rules, remote control, keyword detection, or simply putting “AI” in the title is not enough.
 
-项目必须读取传感器/设备数据，控制执行器/设备，运行在边缘硬件上，或提供可制作的硬件设计。纯聊天机器人、纯桌面应用和只生成 Home Assistant 文本但没有设备集成路径的项目不收录。
+### 3. Direct relationship with physical hardware
 
-### 4. 有复现依据
+The project must read sensor or device data, control actuators or devices, run on edge hardware, or provide buildable hardware designs. Pure chatbots, desktop-only applications, and projects that only generate Home Assistant text without a device integration path are out of scope.
 
-至少需要提供架构说明、支持的硬件、安装/构建步骤三项中的两项。概念视频或一次性 Demo 可以进入候选区，但不能正式收录。
+### 4. Reproducibility evidence
 
-### 5. 明确的开源许可证
+At least two of the following must be available: architecture documentation, a supported-hardware list, and installation or build instructions. A concept video or one-off demo may remain a candidate but cannot be formally accepted.
 
-代码仓库必须包含明确的许可证文件。仅公开源码但没有许可证，不视为可合法复用的开源项目。
+### 5. Explicit open-source license
 
-### 6. 信息可核验
+The source repository must include an explicit license file. Publicly visible source without a license is not legally reusable open source.
 
-所有描述必须来自仓库、官方文档或可访问的原始分享。若声称“来自 X 的近期分享”，必须提供具体帖子 URL；搜索结果或二手转述不能替代来源。
+### 6. Verifiable information
 
-## 不收录
+Descriptions must be supported by the repository, official documentation, or an accessible original post. A claim that a project was “recently shared on X” requires the specific post URL; search results and secondhand summaries are not substitutes.
 
-- 纯软件 Agent、提示词合集或模型列表
-- 没有 AI 核心功能的普通 IoT/Arduino 项目
-- 只有众筹、商店、营销页或演示视频的闭源产品
-- 仓库镜像、重复 Fork、疑似抄袭或来源不清的项目
-- 恶意软件、绕过设备安全、明显侵犯隐私的项目
-- 失效、归档且没有可用文档的项目
-- 付费推广或以收录换取利益的投稿
+## Out of scope
 
-## 分类
+- Software-only agents, prompt collections, or model lists
+- Ordinary IoT or Arduino projects without a core AI capability
+- Closed-source products represented only by crowdfunding, store, marketing, or demo pages
+- Mirrors, duplicate forks, suspected plagiarism, or unclear provenance
+- Malware, device-security bypasses, or projects with obvious privacy abuse
+- Dead or archived projects without usable documentation
+- Paid placement or submissions offering benefits in exchange for inclusion
 
-每个项目选择一个主分类：
+## Categories
 
-| ID | 分类 | 典型项目 |
+Each project has exactly one primary category:
+
+| ID | Category | Typical projects |
 |---|---|---|
-| `smart-home-iot` | 智能家居与 IoT | 灯光、门铃、家庭自动化、MQTT |
-| `wearables` | AI 可穿戴设备 | 徽章、耳机、眼镜、随身助手 |
-| `voice-companions` | 语音助手与 AI 伴侣 | 桌面伴侣、长期语音终端 |
-| `robotics` | 机器人与具身智能 | 移动机器人、机械臂、角色机器人 |
-| `edge-ai` | 边缘 AI 与微控制器 | MCU、SBC、本地推理 |
-| `protocols-infrastructure` | 协议与基础设施 | MCP、MQTT、设备桥接、SDK |
-| `creative-hardware` | 状态可视化与创意硬件 | AI 状态灯、装置艺术、新交互 |
+| `smart-home-iot` | Smart Home and IoT | Lighting, doorbells, home automation, MQTT |
+| `wearables` | AI Wearables | Badges, headphones, glasses, personal assistants |
+| `voice-companions` | Voice Assistants and AI Companions | Desktop companions, persistent voice terminals |
+| `robotics` | Robotics and Embodied AI | Mobile robots, robot arms, character robots |
+| `edge-ai` | Edge AI and Microcontrollers | MCUs, SBCs, local inference |
+| `protocols-infrastructure` | Protocols and Infrastructure | MCP, MQTT, device bridges, SDKs |
+| `creative-hardware` | Status Displays and Creative Hardware | AI status lights, installations, novel interfaces |
 
-必要时可以添加多个标签，但只能有一个主分类。
+Multiple tags may be added when useful, but only one category may be primary.
 
-## 审核流程
+## Review process
 
-1. **Triage**：检查链接、必填字段和明显重复。
-2. **Verification**：核验许可证、AI 作用、硬件作用和复现资料。
-3. **Decision**：接受、要求补充、暂缓或拒绝。
-4. **Merge**：由 PR 修改 `data/projects.json`、README 和对应的月度时间线。
-5. **Maintenance**：定期复查失效链接、归档状态和重大变化。
+1. **Triage:** Check links, required fields, and obvious duplicates.
+2. **Verification:** Verify the license, role of AI, role of hardware, and reproduction materials.
+3. **Decision:** Accept, request information, defer, or reject.
+4. **Merge:** Update `data/projects.json`, the relevant README section, and the monthly timeline.
+5. **Maintenance:** Periodically revisit dead links, archived status, and material changes.
 
-通常状态标签为：`candidate`、`needs-info`、`needs-verification`、`accepted`、`rejected`、`archived`。
+Typical status labels are `candidate`, `needs-info`, `needs-verification`, `accepted`, `rejected`, and `archived`.
 
-详细判定方法见 [审核指南](docs/REVIEW_GUIDE.md)。
+See the [review guide](docs/REVIEW_GUIDE.md) for the detailed decision process.
 
-## Pull Request 要求
+## Pull Request requirements
 
-- 一次 PR 只处理一个项目或一种维护事项；
-- 不要使用广告语、夸张数据或无法核验的评价；
-- 项目描述使用事实性的一句话，说明“AI 做什么”和“硬件是什么”；
-- 新项目必须同时加入结构化数据、README 与 `timeline/YYYY/MM.md`；
-- 日期使用 `YYYY-MM-DD`；
-- 提交前运行 `python scripts/validate_projects.py`。
+- Keep each PR focused on one project or one kind of maintenance change.
+- Avoid promotional language, inflated metrics, and unverifiable opinions.
+- Describe factually what the AI does and what the hardware is.
+- Add a new project to the structured data, the README, and `timeline/YYYY/MM.md`.
+- Use `YYYY-MM-DD` dates.
+- Run `python scripts/validate_projects.py` before submitting.
 
-## 排序与公平性
+## Ordering and fairness
 
-分类内默认按项目名称排序。Stars、融资、品牌关系和在 X 上的热度不决定收录或排序。维护者、贡献者和项目作者之间的利益关系必须公开。
+Projects are ordered alphabetically within each category. Stars, funding, brand relationships, and popularity on X do not determine inclusion or ranking. Maintainers, contributors, and authors must disclose relevant relationships.
 
-## 时间与媒体字段
+## Date and media fields
 
-- `added_at`：维护者批准并正式收录项目的日期；这是月度时间线的唯一分组依据。
-- `discovered_at`：项目被提交或发现的日期，可选；不能代替 `added_at`。
-- `last_verified`：项目资料最后一次完成核验的日期。
-- `source_url`：原始 X Post、博客或项目发布页面，而不是搜索结果页。
-- `resources`：原始图片、视频、Demo、文章或文档链接。请优先链接项目作者或官方仓库发布的资源。
+- `added_at`: the date a maintainer formally accepts the project; this is the only date used to group timeline entries.
+- `discovered_at`: the optional date on which the project was submitted or discovered; it does not replace `added_at`.
+- `last_verified`: the date on which the project's information was most recently verified.
+- `source_url`: the original X post, blog post, or project announcement rather than a search-results page.
+- `resources`: original image, video, demo, article, or documentation links, preferably published by the author or project.
 
-不要下载、复制或重新托管没有明确授权的 X 图片或视频。可以链接原始 Post；只有仓库自有或许可证允许的图片才适合直接嵌入预览。
+Do not download, copy, or rehost X images or videos without clear permission. Link to the original post; directly embed only repository-owned or appropriately licensed media.
 
-## 移除和申诉
+## Removal and appeals
 
-项目可能因仓库失效、许可证移除、描述严重失实、安全/隐私风险或不再符合范围而被标记或移除。作者可以在对应 Issue 中补充证据并申请复核；复核依据仍是同一套公开规则。
+A project may be flagged or removed when its repository disappears, its license is withdrawn, its description is materially misleading, it presents a serious safety or privacy concern, or it no longer fits the scope. Authors may provide new evidence and request another review in the relevant Issue. The same public criteria apply to an appeal.

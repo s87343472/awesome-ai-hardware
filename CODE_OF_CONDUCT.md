@@ -1,30 +1,32 @@
-# 社区行为准则
+# Code of Conduct
 
-## 我们的承诺
+**English** | [简体中文](CODE_OF_CONDUCT.zh-CN.md) · [Documentation index](docs/README.md)
 
-我们致力于为所有参与者提供友善、安全、无骚扰的协作环境，不因年龄、身体特征、残障、族裔、性别认同与表达、经验水平、教育程度、社会经济状况、国籍、外貌、种族、宗教或性取向而区别对待。
+## Our commitment
 
-## 期望行为
+We are committed to providing a friendly, safe, and harassment-free collaborative environment for everyone, regardless of age, body characteristics, disability, ethnicity, gender identity and expression, level of experience, education, socioeconomic status, nationality, appearance, race, religion, or sexual orientation.
 
-- 友善、尊重地讨论事实和证据；
-- 接受建设性反馈，并对项目关系和利益冲突保持透明；
-- 关注对社区最有利的结果；
-- 尊重隐私，不公开敏感设备凭据或未修复漏洞。
+## Expected behavior
 
-## 不可接受的行为
+- Discuss facts and evidence with kindness and respect.
+- Accept constructive feedback and be transparent about project relationships and conflicts of interest.
+- Focus on outcomes that benefit the community.
+- Respect privacy and do not publish sensitive device credentials or unresolved vulnerabilities.
 
-- 骚扰、侮辱、威胁、歧视或人身攻击；
-- 冒充他人、虚假陈述项目能力或操纵收录流程；
-- 未经允许发布他人的私人信息；
-- 发布恶意代码、设备凭据或可被直接利用的敏感细节；
-- 其他在专业协作环境中明显不当的行为。
+## Unacceptable behavior
 
-## 执行
+- Harassment, insults, threats, discrimination, or personal attacks
+- Impersonation, misrepresentation of project capabilities, or manipulation of the inclusion process
+- Publishing another person's private information without permission
+- Publishing malware, device credentials, or directly exploitable sensitive details
+- Other conduct that is clearly inappropriate in a professional collaborative setting
 
-维护者有责任解释并执行本准则，可以编辑、隐藏或删除不当内容，也可以暂时或永久限制参与。处理事件时，维护者会尽力保护报告者的隐私。
+## Enforcement
 
-如需报告问题，请通过仓库所有者 GitHub 个人资料中提供的私密联系方式联系维护者。若内容涉及安全漏洞，请遵循 [安全政策](SECURITY.md)。
+Maintainers are responsible for interpreting and enforcing this code. They may edit, hide, or remove inappropriate content and may temporarily or permanently restrict participation. Maintainers will make reasonable efforts to protect a reporter's privacy when handling an incident.
 
-## 适用范围
+To report a problem, contact a maintainer through a private contact method listed on the repository owner's GitHub profile. For security vulnerabilities, follow the [security policy](SECURITY.md).
 
-本准则适用于本仓库的 Issue、Pull Request、讨论区及代表本项目参与的其他公共空间。
+## Scope
+
+This code applies to this repository's Issues, Pull Requests, discussions, and other public spaces in which a person represents the project.

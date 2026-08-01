@@ -1,78 +1,80 @@
-# 审核指南
+# Review Guide
 
-本文供维护者和社区审阅者使用。审核结论应能由另一个人根据公开信息复现。
+**English** | [简体中文](REVIEW_GUIDE.zh-CN.md) · [Documentation index](README.md)
 
-## 一、门槛检查
+This guide is for maintainers and community reviewers. Another reviewer should be able to reproduce a decision from the cited public information.
 
-六项全部为“是”才可正式收录：
+## 1. Gate checks
 
-- [ ] GitHub 仓库可访问，并包含实际源代码
-- [ ] AI/ML 是项目核心运行路径的一部分
-- [ ] 项目与真实硬件直接交互或提供硬件设计
-- [ ] 有足够的构建、安装或架构资料
-- [ ] 存在明确的开源许可证
-- [ ] 描述和来源可以由公开页面核验
+All six answers must be “yes” before a project can be formally accepted:
 
-缺少信息时使用 `needs-info`；存在但尚未完成核查时使用 `needs-verification`。不要为了凑数量降低门槛。
+- [ ] The GitHub repository is accessible and contains actual source code.
+- [ ] AI or ML is part of the project's core execution path.
+- [ ] The project directly interacts with physical hardware or provides hardware designs.
+- [ ] Sufficient build, installation, or architecture documentation exists.
+- [ ] An explicit open-source license exists.
+- [ ] The description and provenance can be verified from public pages.
 
-## 二、证据记录
+Use `needs-info` when information is missing and `needs-verification` when evidence exists but has not been checked. Do not lower the gate to increase the number of entries.
 
-在 Issue 或 PR 中记录：
+## 2. Evidence record
 
-| 检查项 | 应查看的位置 |
+Record the following in the Issue or PR:
+
+| Check | Where to look |
 |---|---|
-| AI 作用 | README、依赖、模型配置、核心代码路径 |
-| 硬件作用 | BOM、原理图、固件、设备兼容表、通信代码 |
-| 许可证 | 根目录 LICENSE/COPYING 与仓库元数据 |
-| 可复现性 | 安装步骤、接线、构建、配置和演示 |
-| 来源 | 原始 GitHub、官方文档、原始 X/博客帖子 |
-| 媒体 | 作者或项目官方发布的原始图片、视频、Demo、文章 |
-| 活跃状态 | 最近提交、Issue、归档标记、弃用说明 |
+| Role of AI | README, dependencies, model configuration, core code path |
+| Role of hardware | BOM, schematics, firmware, device compatibility, communication code |
+| License | Root LICENSE/COPYING file and repository metadata |
+| Reproducibility | Installation, wiring, build, configuration, and demo instructions |
+| Provenance | Original GitHub repository, official documentation, original X or blog post |
+| Media | Original images, videos, demos, or articles published by the author or project |
+| Activity | Recent commits, Issues, archive flag, and deprecation notices |
 
-不要把第三方摘要当作项目能力的唯一证据。
+Do not use a third-party summary as the only evidence for a project's capabilities.
 
-确认 `added_at` 是正式批准收录的日期，而不是帖子发布日期、仓库创建日期或 Grok 的发现日期。媒体资源需链接原始来源；不复制没有授权的素材。
+Confirm that `added_at` is the date of formal acceptance, not the post date, repository creation date, or Grok discovery date. Link media to its original source and do not copy unlicensed material.
 
-## 三、质量信号
+## 3. Quality signals
 
-通过门槛后，至少建议具备以下两项：
+After passing the gates, a project should preferably have at least two of these signals:
 
-- 清晰的架构或数据流说明
-- 明确列出兼容硬件或 BOM
-- 可执行的安装/构建步骤
-- 演示视频、图片或测试结果
-- 基本的安全与隐私说明
-- 最近 24 个月内仍有维护活动
+- Clear architecture or data-flow documentation
+- An explicit supported-hardware list or BOM
+- Actionable installation or build instructions
+- A demo video, images, or test results
+- Basic security and privacy documentation
+- Maintenance activity within the last 24 months
 
-质量信号用于决定是否需要补充信息，不以 Stars 数量替代。
+Use these signals to determine whether more information is needed. Do not substitute star counts for quality.
 
-## 四、描述规范
+## 4. Description style
 
-好的描述应当回答两个问题：AI 做什么？硬件做什么？
+A good description answers two questions: What does the AI do? What does the hardware do?
 
-推荐：
+Recommended:
 
-> 通过 MCP 将自然语言指令转换为 MQTT 消息，以控制灯光、电机和其他 IoT 设备。
+> Converts natural-language instructions into MQTT messages through MCP to control lights, motors, and other IoT devices.
 
-不推荐：
+Not recommended:
 
-> 革命性的下一代智能硬件平台，体验令人惊叹。
+> A revolutionary next-generation intelligent hardware platform with an amazing experience.
 
-不得写入无法在来源中核验的 star 数量、排名、性能、价格或“近期热门”等易变化信息。
+Do not include volatile or unverifiable claims about star counts, rankings, performance, prices, or recent popularity.
 
-## 五、安全与隐私
+## 5. Security and privacy
 
-涉及常开麦克风、摄像头、门锁、家庭自动化或远程执行的项目，需要在审核记录中注明主要权限和数据流。收录不等于安全审计；存在尚未解决的严重风险时应暂缓收录并私下联系作者。
+For projects involving always-on microphones, cameras, door locks, home automation, or remote execution, note the principal permissions and data flow in the review record. Inclusion is not a security audit. Defer projects with unresolved severe risks and contact their authors privately.
 
-## 六、结论模板
+## 6. Decision template
 
 ```text
-结论：接受 / 需要补充 / 暂缓 / 拒绝
-AI 作用：
-硬件作用：
-许可证：
-复现依据：
-来源依据：
-安全/隐私备注：
-审核日期：YYYY-MM-DD
+Decision: Accept / Needs information / Defer / Reject
+Role of AI:
+Role of hardware:
+License:
+Reproduction evidence:
+Provenance evidence:
+Security/privacy notes:
+Review date: YYYY-MM-DD
 ```

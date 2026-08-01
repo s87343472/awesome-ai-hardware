@@ -1,6 +1,6 @@
 # Collection Timeline / 收录时间线
 
-[English](#english) | [简体中文](#简体中文)
+[English](#english) | [简体中文](#简体中文) · [Documentation index / 文档索引](../docs/README.md)
 
 ## English
 

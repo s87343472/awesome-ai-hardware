@@ -1,13 +1,15 @@
-# 安全政策
+# Security Policy
 
-本仓库主要维护项目索引，不托管被收录项目的代码。
+**English** | [简体中文](SECURITY.zh-CN.md) · [Documentation index](docs/README.md)
 
-## 报告合集本身的问题
+This repository maintains a project index and does not host the source code of listed projects.
 
-如果你发现自动化脚本、工作流或仓库配置存在安全问题，请通过仓库所有者 GitHub 个人资料中的私密联系方式报告，不要在公开 Issue 中披露可直接利用的细节。
+## Reporting a problem in this collection
 
-## 报告被收录项目的问题
+If you find a security problem in an automation script, workflow, or repository configuration, report it through a private contact method on the repository owner's GitHub profile. Do not disclose directly exploitable details in a public Issue.
 
-请优先遵循对应项目的 `SECURITY.md` 或私密漏洞报告流程。本仓库无法代表第三方项目处理漏洞，但可以在确认风险后添加警示、暂缓收录或移除条目。
+## Reporting a problem in a listed project
 
-不要在投稿 Issue 中粘贴设备密钥、API Token、家庭网络信息、精确住址、未经处理的音视频或其他敏感数据。
+Follow the listed project's `SECURITY.md` or private vulnerability-reporting process first. This repository cannot handle vulnerabilities on behalf of third-party projects, but it may add a warning, defer inclusion, or remove an entry after a risk is confirmed.
+
+Do not paste device keys, API tokens, home-network information, precise addresses, unprocessed audio or video, or other sensitive data into a submission Issue.

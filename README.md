@@ -17,6 +17,7 @@ This is not a news feed or an unverified link dump. Every listed project must me
 - [Categories](#categories)
 - [Projects](#projects)
 - [Timeline](#timeline)
+- [Documentation](#documentation)
 - [Inclusion Criteria](#inclusion-criteria)
 - [Contributing](#contributing)
 - [Data and Transparency](#data-and-transparency)
@@ -46,6 +47,10 @@ Browse the [collection timeline](timeline/README.md) to discover projects by the
 
 The acceptance date is not necessarily the project's publication date or the date it was discovered.
 
+## Documentation
+
+The [documentation index](docs/README.md) links every guide in English and Simplified Chinese, including the contributing guide, review guide, Code of Conduct, and security policy.
+
 ## Inclusion Criteria
 
 A project must meet all of the following requirements:
@@ -57,7 +62,7 @@ A project must meet all of the following requirements:
 5. Its repository contains an explicit open-source license.
 6. Its description and claims can be verified from public sources.
 
-See the [contribution guide](CONTRIBUTING.md) and [review guide](docs/REVIEW_GUIDE.md) for the complete rules.
+See the [contribution guide](CONTRIBUTING.md) and [review guide](docs/REVIEW_GUIDE.md) for the complete rules. Chinese versions are available from the [documentation index](docs/README.md).
 
 ## Contributing
 
