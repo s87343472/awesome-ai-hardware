@@ -83,6 +83,14 @@ This is not a news feed or an unverified link dump. Every listed project must me
 | 15 | esprec | Apache-2.0 | Lets coding agents capture and visually validate a real ESP32 screen through an on-device component and USB host tool. | [Video](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [Repo](https://github.com/tig/esprec) | — |
 | 16 | mcp2mqtt | MIT | Converts MCP tool calls into MQTT commands so language models can control connected lights, motors, and other devices. | [Image](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [Repo](https://github.com/mcp2everything/mcp2mqtt) | [Post](https://x.com/GitHub_Daily/status/1946721719349055520) |
 
+### AI Status Displays and Creative Hardware
+
+| No. | Name | License | Description | Image / Video | GitHub | X |
+|---:|---|---|---|---|---|---|
+| 17 | findphone † | No license declared (maintainer exception) | A Claude-assisted macOS Bluetooth RSSI finder that guides users to a nearby phone with a visual meter and sound feedback. | [Video](https://x.com/un1c0rnioz/status/2084686552299634805) | [Repo](https://github.com/ben-z/findphone) | [Post](https://x.com/un1c0rnioz/status/2084686552299634805) |
+
+† Maintainer-approved exception: AI was used to create the tool rather than at runtime, and the repository has no declared license. See its [review record](reviews/2026-08-05-findphone-showcase.md).
+
 See the [2026-08-02 extended review](reviews/2026-08-02-extended-showcase-batch.md) and [2026-08-01 initial review](reviews/2026-08-01-initial-batch.md) for accepted, deferred, superseded, and rejected candidates.
 
 ## Timeline
@@ -101,7 +109,7 @@ The [documentation index](docs/README.md) links every guide in English and Simpl
 
 ## Inclusion Criteria
 
-A project must meet all of the following requirements:
+A project ordinarily must meet all of the following requirements:
 
 1. Its source repository is publicly accessible.
 2. AI, an LLM, or an agent is a core capability rather than a marketing label.
@@ -109,6 +117,8 @@ A project must meet all of the following requirements:
 4. It includes enough documentation to understand or reproduce the project.
 5. Its repository contains an explicit open-source license.
 6. Its description and claims can be verified from public sources.
+
+A maintainer may approve a rare, documented exception when a project has exceptional educational or build-story value. Exceptions are explicitly labeled in the catalog and review record; they do not change the standards for ordinary submissions.
 
 See the [contribution guide](CONTRIBUTING.md) and [review guide](docs/REVIEW_GUIDE.md) for the complete rules. Chinese versions are available from the [documentation index](docs/README.md).
 

@@ -12,7 +12,7 @@
       "media_type": "video",
       "media_url": "https://x.com/un1c0rnioz/status/2084686552299634805/photo/1",
       "category": "creative-hardware",
-      "catalog_status": "showcase-only",
+      "catalog_status": "listed",
       "summary_en": "The creator describes asking Claude for a way to find an MDM-disabled phone, then using the generated macOS Bluetooth RSSI meter to walk toward the stronger signal and recover it.",
       "summary_zh": "作者讲述在手机受 MDM 限制、无法使用 Find My 时向 Claude 求助，再用生成的 macOS 蓝牙 RSSI 仪表沿着增强的信号找回手机。",
       "linked_repos": ["https://github.com/ben-z/findphone"]

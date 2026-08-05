@@ -23,6 +23,8 @@ Submit one project per Issue. Project authors may submit their own work but must
 
 Every requirement below must be satisfied.
 
+Maintainer exceptions are rare, documented decisions for unusual educational or build-story value; they cannot be requested through a normal submission and do not relax the requirements below.
+
 ### 1. Accessible implementation
 
 A public source repository must contain an actual implementation, not only a product page, screenshots, a waitlist, or prebuilt binaries.

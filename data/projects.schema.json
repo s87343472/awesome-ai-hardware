@@ -34,6 +34,8 @@
           "discovered_at": { "type": "string", "format": "date" },
           "source_url": { "type": "string", "format": "uri" },
           "demo_url": { "type": "string", "format": "uri" },
+          "curator_exception_en": { "type": "string", "minLength": 10 },
+          "curator_exception_zh": { "type": "string", "minLength": 10 },
           "last_verified": { "type": "string", "format": "date" },
           "resources": {
             "type": "array",

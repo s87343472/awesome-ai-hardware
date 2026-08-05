@@ -6,7 +6,7 @@ This guide is for maintainers and community reviewers. Another reviewer should b
 
 ## 1. Gate checks
 
-All six answers must be “yes” before a project can be formally accepted:
+All six answers must be “yes” before a project can be formally accepted, except for a rare documented maintainer exception that is explicitly labeled in the catalog and review record:
 
 - [ ] The GitHub repository is accessible and contains actual source code.
 - [ ] AI or ML is part of the project's core execution path.

@@ -41,6 +41,8 @@ OPTIONAL = {
     "discovered_at",
     "source_url",
     "demo_url",
+    "curator_exception_en",
+    "curator_exception_zh",
     "resources",
 }
 RESOURCE_TYPES = {"image", "video", "demo", "article", "docs"}
@@ -112,6 +114,11 @@ def validate() -> list[str]:
             value = project.get(field)
             if not isinstance(value, str) or not value.strip():
                 errors.append(f"{label}.{field} must be a non-empty string.")
+
+        exception_fields = ("curator_exception_en", "curator_exception_zh")
+        if any(field in project for field in exception_fields):
+            if any(not isinstance(project.get(field), str) or not project[field].strip() for field in exception_fields):
+                errors.append(f"{label} must provide both bilingual curator exception fields.")
 
         for field in ("source_url", "demo_url"):
             if field in project and not is_http_url(project[field]):

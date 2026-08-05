@@ -83,6 +83,14 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 | 15 | esprec | Apache-2.0 | 通过 ESP32 端组件和 USB 主机工具，让编码 Agent 捕获并检查真实设备屏幕。 | [视频](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [仓库](https://github.com/tig/esprec) | — |
 | 16 | mcp2mqtt | MIT | 把 MCP 工具调用转换成 MQTT 命令，让大模型控制联网灯光、电机和其他设备。 | [图片](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [仓库](https://github.com/mcp2everything/mcp2mqtt) | [帖子](https://x.com/GitHub_Daily/status/1946721719349055520) |
 
+### AI 状态可视化与创意硬件
+
+| 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
+|---:|---|---|---|---|---|---|
+| 17 | findphone † | 未声明许可证（维护者例外） | 由 Claude 协助制作的 macOS 蓝牙 RSSI 寻机工具，通过仪表和声音反馈引导用户找到附近手机。 | [视频](https://x.com/un1c0rnioz/status/2084686552299634805) | [仓库](https://github.com/ben-z/findphone) | [帖子](https://x.com/un1c0rnioz/status/2084686552299634805) |
+
+† 维护者批准的例外：AI 用于制作过程而非运行时，且仓库没有声明许可证。详见[审核记录](reviews/2026-08-05-findphone-showcase.md)。
+
 通过、暂缓、替代和拒绝项目的完整依据见 [2026-08-02 扩展审核](reviews/2026-08-02-extended-showcase-batch.md)和 [2026-08-01 初始审核](reviews/2026-08-01-initial-batch.md)。
 
 ## 收录时间线
@@ -101,7 +109,7 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 
 ## 收录标准
 
-项目必须同时满足以下条件：
+项目通常必须同时满足以下条件：
 
 1. 有可公开访问的源代码仓库；
 2. AI、LLM 或 Agent 是核心能力，而不是营销标签；
@@ -109,6 +117,8 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 4. 提供足以理解或复现项目的说明；
 5. 仓库中有明确的开源许可证；
 6. 项目描述和相关声明可以通过公开来源核验。
+
+当项目具有特殊的教学价值或制作故事价值时，维护者可作出少量、有记录的例外批准。例外会在项目目录和审核记录中明确标注，不改变普通投稿的收录标准。
 
 完整规则请阅读[贡献指南](CONTRIBUTING.zh-CN.md)和[审核指南](docs/REVIEW_GUIDE.zh-CN.md)。
 

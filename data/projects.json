@@ -166,6 +166,36 @@
       "tags": ["agent-tooling", "esp32", "screen-capture"]
     },
     {
+      "id": "findphone",
+      "name": "findphone",
+      "repo_url": "https://github.com/ben-z/findphone",
+      "category": "creative-hardware",
+      "description_zh": "由 Claude 协助快速制作的 macOS 蓝牙 RSSI 寻机工具：读取真实设备的信号强度，以可视化仪表和声音反馈引导用户找回附近手机。",
+      "description_en": "A Claude-assisted macOS Bluetooth RSSI finder that reads a real device's signal strength and guides users to a nearby phone with a visual meter and sound feedback.",
+      "ai_role": "Claude was used to design and write the tool during its creation; the released utility does not use AI, LLMs, or agents at runtime.",
+      "hardware_role": "Uses the Mac's Bluetooth radio to observe or connect to nearby devices and converts RSSI measurements into a physical search aid.",
+      "license": "No license declared (maintainer exception)",
+      "curator_exception_en": "Maintainer-approved exception: this is a high-value AI-assisted hardware build story, although AI is part of its creation rather than runtime and the repository currently has no declared license.",
+      "curator_exception_zh": "维护者批准的例外：这是高价值的 AI 辅助硬件制作案例，但 AI 参与的是创建过程而非运行时，且仓库目前没有声明许可证。",
+      "added_at": "2026-08-05",
+      "discovered_at": "2026-08-05",
+      "source_url": "https://x.com/un1c0rnioz/status/2084686552299634805",
+      "last_verified": "2026-08-05",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Claude-assisted phone-finding demo",
+          "url": "https://x.com/un1c0rnioz/status/2084686552299634805"
+        },
+        {
+          "type": "docs",
+          "title": "findphone usage and Bluetooth signal notes",
+          "url": "https://github.com/ben-z/findphone#readme"
+        }
+      ],
+      "tags": ["ai-assisted-build", "bluetooth", "macos"]
+    },
+    {
       "id": "hailo-apps",
       "name": "Hailo Apps",
       "repo_url": "https://github.com/hailo-ai/hailo-apps",
