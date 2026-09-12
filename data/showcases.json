@@ -2,6 +2,84 @@
   "$schema": "./showcases.schema.json",
   "showcases": [
     {
+      "id": "autonomous-os-robot-agent-runtime",
+      "title_en": "Autonomous OS robot agent runtime",
+      "title_zh": "Autonomous OS 机器人 Agent 运行时",
+      "post_url": "https://x.com/DanKornas/status/2098716755606544518",
+      "post_author": "Dan Kornas (@DanKornas)",
+      "relationship": "community",
+      "published_at": "2026-09-12",
+      "media_type": "image",
+      "media_url": "https://x.com/DanKornas/status/2098716755606544518/photo/1",
+      "category": "robotics",
+      "catalog_status": "listed",
+      "summary_en": "Introduces a robot operating system that declares hardware and safety boundaries in Markdown, then mounts replaceable agent runtimes, perception, skills, and actuator drivers.",
+      "summary_zh": "介绍一个通过 Markdown 声明硬件与安全边界，再挂载可替换 Agent 运行时、感知、技能和执行器驱动的机器人操作系统。",
+      "linked_repos": [
+        "https://github.com/autonomous-ai/autonomous-os"
+      ]
+    },
+    {
+      "id": "so-arm101-lerobot-arm",
+      "title_en": "SO-ARM101 LeRobot arm",
+      "title_zh": "SO-ARM101 LeRobot 机械臂",
+      "post_url": "https://x.com/kaigo_tech/status/2098212738434756678",
+      "post_author": "Kaigo Tech (@kaigo_tech)",
+      "relationship": "community",
+      "published_at": "2026-09-11",
+      "media_type": "video",
+      "media_url": "https://x.com/kaigo_tech/status/2098212738434756678/photo/1",
+      "category": "robotics",
+      "catalog_status": "listed",
+      "summary_en": "Points to a low-cost printable leader-follower arm designed for LeRobot teleoperation, demonstration capture, and learned-policy deployment.",
+      "summary_zh": "介绍一套面向 LeRobot 遥操作、示范采集和学习策略部署的低成本可打印主从机械臂。",
+      "linked_repos": [
+        "https://github.com/TheRobotStudio/SO-ARM100"
+      ],
+      "related_urls": [
+        "https://www.youtube.com/watch?v=rVP1XQ0PeM4"
+      ]
+    },
+    {
+      "id": "microduck-sim-to-real-biped",
+      "title_en": "Microduck sim-to-real biped",
+      "title_zh": "Microduck 仿真到真机双足机器人",
+      "post_url": "https://x.com/pollenrobotics/status/2092915032052879425",
+      "post_author": "Pollen Robotics (@pollenrobotics)",
+      "relationship": "project-team",
+      "published_at": "2026-08-27",
+      "media_type": "video",
+      "media_url": "https://x.com/pollenrobotics/status/2092915032052879425/photo/1",
+      "category": "robotics",
+      "catalog_status": "listed",
+      "summary_en": "Demonstrates the 25-cm biped duck running neural locomotion policies on its own Rockchip control stack, with the companion repository documenting PPO and simulation-to-real training.",
+      "summary_zh": "演示这台 25 厘米双足鸭在自身 Rockchip 控制栈上运行神经网络运动策略，配套仓库记录 PPO 与仿真到真机训练。",
+      "linked_repos": [
+        "https://github.com/pollen-robotics/microduck"
+      ],
+      "related_urls": [
+        "https://github.com/pollen-robotics/microduck_rl"
+      ]
+    },
+    {
+      "id": "esp-claw-edge-agent",
+      "title_en": "ESP-Claw edge agent loop",
+      "title_zh": "ESP-Claw 边缘 Agent 闭环",
+      "post_url": "https://x.com/Alacritic_Super/status/2088271995716997196",
+      "post_author": "Praveen Kumar Verma (@Alacritic_Super)",
+      "relationship": "community",
+      "published_at": "2026-08-14",
+      "media_type": "video",
+      "media_url": "https://x.com/Alacritic_Super/status/2088271995716997196/photo/1",
+      "category": "edge-ai",
+      "catalog_status": "listed",
+      "summary_en": "Demonstrates Espressif's ESP32 agent framework, which combines events, LLM-backed reasoning, dynamic skills, tool calls, and on-device execution for IoT behavior.",
+      "summary_zh": "演示乐鑫的 ESP32 Agent 框架，把事件、LLM 推理、动态技能、工具调用和板端执行结合为 IoT 行为闭环。",
+      "linked_repos": [
+        "https://github.com/espressif/esp-claw"
+      ]
+    },
+    {
       "id": "findphone-claude-assisted-bluetooth-finder",
       "title_en": "Findphone Claude-assisted Bluetooth finder",
       "title_zh": "Findphone：Claude 协助制作的蓝牙寻机工具",
@@ -15,7 +93,27 @@
       "catalog_status": "listed",
       "summary_en": "The creator describes asking Claude for a way to find an MDM-disabled phone, then using the generated macOS Bluetooth RSSI meter to walk toward the stronger signal and recover it.",
       "summary_zh": "作者讲述在手机受 MDM 限制、无法使用 Find My 时向 Claude 求助，再用生成的 macOS 蓝牙 RSSI 仪表沿着增强的信号找回手机。",
-      "linked_repos": ["https://github.com/ben-z/findphone"]
+      "linked_repos": [
+        "https://github.com/ben-z/findphone"
+      ]
+    },
+    {
+      "id": "xiaozhi-esp32-mcp-voice-robot",
+      "title_en": "xiaozhi-esp32 MCP voice robot",
+      "title_zh": "小智 xiaozhi-esp32 MCP 语音机器人",
+      "post_url": "https://x.com/ardchain/status/2084383103251054735",
+      "post_author": "Ardchain (@ardchain)",
+      "relationship": "community",
+      "published_at": "2026-08-04",
+      "media_type": "video",
+      "media_url": "https://x.com/ardchain/status/2084383103251054735/photo/1",
+      "category": "voice-companions",
+      "catalog_status": "listed",
+      "summary_en": "Shows an ESP32 voice robot that combines wake-word and streaming voice pipelines with LLM and MCP control of servos, GPIO, and connected devices.",
+      "summary_zh": "展示一台把唤醒、流式语音链路、LLM 与 MCP 相结合，并控制舵机、GPIO 和联网设备的 ESP32 语音机器人。",
+      "linked_repos": [
+        "https://github.com/78/xiaozhi-esp32"
+      ]
     },
     {
       "id": "openquadruped-build-showcase",
@@ -31,7 +129,9 @@
       "catalog_status": "showcase-only",
       "summary_en": "Shows a 3D-printed 12-DOF robot dog and its CAD, PCB, ROS, gait, inverse-kinematics, and simulation material; reinforcement learning remains a planned item.",
       "summary_zh": "展示 3D 打印 12 自由度机器狗及其 CAD、PCB、ROS、步态、逆运动学和仿真资料；强化学习仍属于计划项。",
-      "linked_repos": ["https://github.com/adham-elarabawy/open-quadruped"]
+      "linked_repos": [
+        "https://github.com/adham-elarabawy/open-quadruped"
+      ]
     },
     {
       "id": "weekend-gemini-robotics-lab",
@@ -48,7 +148,9 @@
       "summary_en": "Demonstrates Gemini Robotics ER 2 controlling a MuJoCo arm in Docker before deployment to Azure; no implementation repository is linked.",
       "summary_zh": "演示 Gemini Robotics ER 2 在 Docker 中控制 MuJoCo 机械臂并部署到 Azure；帖子未提供实现仓库。",
       "linked_repos": [],
-      "related_urls": ["https://t.co/TyHXHWJO10"]
+      "related_urls": [
+        "https://t.co/TyHXHWJO10"
+      ]
     },
     {
       "id": "gemma-smart-glasses-context-demo",
@@ -80,7 +182,9 @@
       "catalog_status": "listed",
       "summary_en": "Explains PicoLM's memory footprint, board-level token speeds, architecture optimizations, prompt-cache behavior, and use as PicoClaw's fully offline local brain.",
       "summary_zh": "介绍 PicoLM 的内存占用、不同开发板速度、架构优化、提示词缓存，以及作为 PicoClaw 完全离线本地大脑的用法。",
-      "linked_repos": ["https://github.com/RightNow-AI/picolm"]
+      "linked_repos": [
+        "https://github.com/RightNow-AI/picolm"
+      ]
     },
     {
       "id": "buddie-full-stack-voice-companion",
@@ -96,7 +200,9 @@
       "catalog_status": "deferred",
       "summary_en": "Walks through the appeal of a DIY voice companion and highlights Buddie's schematics, PCB, BOM, embedded firmware, and Flutter application.",
       "summary_zh": "从自制语音伴侣的动机出发，展示 Buddie 的电路原理图、PCB、BOM、嵌入式固件和 Flutter 应用。",
-      "linked_repos": ["https://github.com/Buddie-AI/Buddie"]
+      "linked_repos": [
+        "https://github.com/Buddie-AI/Buddie"
+      ]
     },
     {
       "id": "codex-smart-light-status",
@@ -112,7 +218,27 @@
       "catalog_status": "deferred",
       "summary_en": "The creator describes the overnight idea and debugging process, then demonstrates orange approval, breathing work, and cool completion states on a Mi Home lamp.",
       "summary_zh": "作者讲述从前一晚偶然想到、由 Codex 协助调试，到米家台灯呈现橙色待批准、呼吸执行和冷色完成状态的全过程。",
-      "linked_repos": ["https://github.com/TanShilongMario/Codex-Light-shortcut"]
+      "linked_repos": [
+        "https://github.com/TanShilongMario/Codex-Light-shortcut"
+      ]
+    },
+    {
+      "id": "nightrun-boot-to-llm",
+      "title_en": "NIGHTRUN boot-to-LLM runtime",
+      "title_zh": "NIGHTRUN 启动即 LLM 运行时",
+      "post_url": "https://x.com/cnxsoft/status/2082761180674982167",
+      "post_author": "CNX Software (@cnxsoft)",
+      "relationship": "community",
+      "published_at": "2026-07-30",
+      "media_type": "image",
+      "media_url": "https://x.com/cnxsoft/status/2082761180674982167/photo/1",
+      "category": "edge-ai",
+      "catalog_status": "listed",
+      "summary_en": "Explains a no-OS local LLM runtime that boots from USB on UEFI hardware or an SD card on Raspberry Pi 5 and runs quantized models offline.",
+      "summary_zh": "介绍一个无传统操作系统的本地 LLM 运行时，可从 UEFI 设备的 USB 或树莓派 5 的 SD 卡启动并离线运行量化模型。",
+      "linked_repos": [
+        "https://github.com/hardrave/NIGHTRUN"
+      ]
     },
     {
       "id": "omi-wearable-second-brain",
@@ -128,7 +254,9 @@
       "catalog_status": "listed",
       "summary_en": "Frames Omi as an always-available assistant that observes screen and audio context, then proactively provides guidance while keeping its stack open for inspection.",
       "summary_zh": "把 Omi 作为持续获取屏幕与音频上下文、主动提供下一步建议，并允许用户审查完整技术栈的随身助手来介绍。",
-      "linked_repos": ["https://github.com/BasedHardware/omi"]
+      "linked_repos": [
+        "https://github.com/BasedHardware/omi"
+      ]
     },
     {
       "id": "sabr-self-balancing-build",
@@ -144,8 +272,12 @@
       "catalog_status": "showcase-only",
       "summary_en": "Compresses the creator's CAD, 3D printing, PCB, embedded code, Kalman filtering, PID tuning, and balancing result into a one-minute build video.",
       "summary_zh": "用一分钟视频浓缩作者从 CAD、3D 打印、PCB、嵌入式代码、卡尔曼滤波和 PID 调参到真实平衡的完整过程。",
-      "linked_repos": ["https://github.com/Pharez-Ajibade/SABR---A-SELF-BALANCING-ROBOT-"],
-      "related_urls": ["https://youtu.be/h8H8bgWLwpI"]
+      "linked_repos": [
+        "https://github.com/Pharez-Ajibade/SABR---A-SELF-BALANCING-ROBOT-"
+      ],
+      "related_urls": [
+        "https://youtu.be/h8H8bgWLwpI"
+      ]
     },
     {
       "id": "esp32-ai-on-device-language-model",
@@ -161,7 +293,9 @@
       "catalog_status": "listed",
       "summary_en": "Explains and demonstrates a 28.9-million-parameter language model running fully offline on an ESP32-S3, including its flash paging architecture and measured speed.",
       "summary_zh": "讲解并演示 2890 万参数语言模型在 ESP32-S3 上完全离线运行，包括 Flash 分页架构和实测生成速度。",
-      "linked_repos": ["https://github.com/slvDev/esp32-ai"]
+      "linked_repos": [
+        "https://github.com/slvDev/esp32-ai"
+      ]
     },
     {
       "id": "home-generative-agent-automation-demo",
@@ -177,7 +311,9 @@
       "catalog_status": "listed",
       "summary_en": "Demonstrates a plain-English request becoming a real Home Assistant automation, including generated YAML, local execution, and a phone notification action.",
       "summary_zh": "演示如何把自然语言需求直接变成真实 Home Assistant 自动化，包括生成 YAML、本地执行和手机通知动作。",
-      "linked_repos": ["https://github.com/goruck/home-generative-agent"]
+      "linked_repos": [
+        "https://github.com/goruck/home-generative-agent"
+      ]
     },
     {
       "id": "kittentts-edge-voice-model",
@@ -193,7 +329,9 @@
       "catalog_status": "showcase-only",
       "summary_en": "Highlights a 25–80 MB CPU-only text-to-speech family for edge deployment; the repository provides a model library but no concrete hardware integration build.",
       "summary_zh": "介绍面向边缘部署的 25–80 MB 纯 CPU 文本转语音模型；仓库提供模型库，但尚未给出具体硬件集成构建。",
-      "linked_repos": ["https://github.com/KittenML/KittenTTS"]
+      "linked_repos": [
+        "https://github.com/KittenML/KittenTTS"
+      ]
     },
     {
       "id": "dronebridge-low-cost-telemetry",
@@ -209,7 +347,27 @@
       "catalog_status": "showcase-only",
       "summary_en": "Introduces an inexpensive low-latency ESP32 telemetry bridge for drones and robots with ESP-NOW, Wi-Fi, MAVLink, and related protocols; the implementation contains no AI component.",
       "summary_zh": "介绍面向无人机和机器人的低成本低延迟 ESP32 遥测桥，支持 ESP-NOW、Wi-Fi、MAVLink 等协议；实现本身不含 AI 组件。",
-      "linked_repos": ["https://github.com/DroneBridge/ESP32"]
+      "linked_repos": [
+        "https://github.com/DroneBridge/ESP32"
+      ]
+    },
+    {
+      "id": "opensqz-openglass-local-assistance",
+      "title_en": "OpenSQZ OpenGlass local visual assistance",
+      "title_zh": "OpenSQZ OpenGlass 本地视觉辅助",
+      "post_url": "https://x.com/OpenSQZ/status/2080215762862805188",
+      "post_author": "OpenSQZ (@OpenSQZ)",
+      "relationship": "project-team",
+      "published_at": "2026-07-23",
+      "media_type": "video",
+      "media_url": "https://x.com/OpenSQZ/status/2080215762862805188/photo/1",
+      "category": "wearables",
+      "catalog_status": "deferred",
+      "summary_en": "Demonstrates a sensing-computing-split AI glasses prototype: ESP32-S3 first-person camera and audio capture feeds local multimodal inference on a nearby user-controlled device.",
+      "summary_zh": "演示采用感知与计算分离架构的 AI 眼镜原型：ESP32-S3 第一视角摄像头和音频采集，传给附近由用户控制设备上的本地多模态推理。",
+      "linked_repos": [
+        "https://github.com/OpenSQZ/OpenGlass"
+      ]
     },
     {
       "id": "lightmem-ego-wearable-memory",
@@ -225,7 +383,9 @@
       "catalog_status": "listed",
       "summary_en": "Explains how Rokid AI glasses stream first-person camera and audio context into current, short-term, and long-term memory layers for evidence-backed recall.",
       "summary_zh": "讲解 Rokid AI 眼镜如何把第一视角摄像头与音频上下文流入当前、短期和长期记忆层，并提供带证据的回忆结果。",
-      "linked_repos": ["https://github.com/zjunlp/LightMem-Ego"]
+      "linked_repos": [
+        "https://github.com/zjunlp/LightMem-Ego"
+      ]
     },
     {
       "id": "roboparty-party-os-stack",
@@ -241,7 +401,27 @@
       "catalog_status": "showcase-only",
       "summary_en": "Maps the humanoid workflow from motion retargeting and imitation learning to unsupervised reinforcement learning and real-robot deployment across the Party OS subprojects.",
       "summary_zh": "梳理 Party OS 各子项目如何覆盖动作重定向、模仿学习、无监督强化学习和真机部署的人形机器人完整流程。",
-      "linked_repos": ["https://github.com/Roboparty/Party_OS"]
+      "linked_repos": [
+        "https://github.com/Roboparty/Party_OS"
+      ]
+    },
+    {
+      "id": "reachy-mini-expressive-robot",
+      "title_en": "Reachy Mini expressive robot",
+      "title_zh": "Reachy Mini 表情机器人",
+      "post_url": "https://x.com/pollenrobotics/status/2074439807166562568",
+      "post_author": "Pollen Robotics (@pollenrobotics)",
+      "relationship": "project-team",
+      "published_at": "2026-07-07",
+      "media_type": "video",
+      "media_url": "https://x.com/pollenrobotics/status/2074439807166562568/photo/1",
+      "category": "robotics",
+      "catalog_status": "listed",
+      "summary_en": "Introduces an expressive desktop robot with camera, microphone, speaker, motors, SDKs, simulation, and an app ecosystem including LLM conversation.",
+      "summary_zh": "介绍一款带相机、麦克风、扬声器、运动机构、SDK、仿真和应用生态的桌面表情机器人，其中包含 LLM 对话应用。",
+      "linked_repos": [
+        "https://github.com/pollen-robotics/reachy_mini"
+      ]
     },
     {
       "id": "robotis-ai-worker-hybrid-control",
@@ -257,7 +437,9 @@
       "catalog_status": "listed",
       "summary_en": "An official engineer demonstrates combining Behavior Trees with a VLA framework so a ROBOTIS AI Worker can complete complex long-horizon tasks.",
       "summary_zh": "官方工程师演示把 Behavior Tree 与 VLA 框架结合，使 ROBOTIS AI Worker 完成复杂长时程任务。",
-      "linked_repos": ["https://github.com/ROBOTIS-GIT/cyclo_intelligence"],
+      "linked_repos": [
+        "https://github.com/ROBOTIS-GIT/cyclo_intelligence"
+      ],
       "related_urls": [
         "https://youtu.be/jRcUuwxFk_Y",
         "https://docs.robotis.com/docs/systems/aiworker/advanced_features/behavior_trees/"
@@ -277,7 +459,9 @@
       "catalog_status": "listed",
       "summary_en": "Explains the local decision center, cross-device coordination, long-term preference learning, Mi Home discovery, and privacy-first design behind Anima.",
       "summary_zh": "介绍 Anima 的本地决策中枢、跨设备联动、长期偏好学习、米家设备发现和隐私优先设计。",
-      "linked_repos": ["https://github.com/Fullive-AI/Anima"]
+      "linked_repos": [
+        "https://github.com/Fullive-AI/Anima"
+      ]
     },
     {
       "id": "autonomous-personal-ai-computer",
@@ -293,7 +477,27 @@
       "catalog_status": "listed",
       "summary_en": "The project team explains why it wants locally owned AI compute and links open 2-, 4-, and 8-GPU build guides containing BOMs, CAD, assembly instructions, and software setup.",
       "summary_zh": "项目团队解释为何需要自己掌控本地 AI 算力，并提供含 BOM、CAD、装配说明和软件设置的 2、4、8 GPU 构建指南。",
-      "linked_repos": ["https://github.com/autonomous-ai/autonomous-computer"]
+      "linked_repos": [
+        "https://github.com/autonomous-ai/autonomous-computer"
+      ]
+    },
+    {
+      "id": "lerobot-end-to-end-robot-learning",
+      "title_en": "LeRobot end-to-end robot learning",
+      "title_zh": "LeRobot 端到端机器人学习",
+      "post_url": "https://x.com/repocatai_git/status/2053722278991638660",
+      "post_author": "RepoCatAI (@repocatai_git)",
+      "relationship": "community",
+      "published_at": "2026-05-11",
+      "media_type": "image",
+      "media_url": "https://x.com/repocatai_git/status/2053722278991638660/photo/1",
+      "category": "robotics",
+      "catalog_status": "listed",
+      "summary_en": "Presents Hugging Face's hardware-agnostic robot-learning library, covering real-robot data, shared datasets, end-to-end policies, and deployment across open robot platforms.",
+      "summary_zh": "介绍 Hugging Face 的硬件无关机器人学习库，覆盖真机数据、共享数据集、端到端策略和多种开源机器人平台上的部署。",
+      "linked_repos": [
+        "https://github.com/huggingface/lerobot"
+      ]
     },
     {
       "id": "openarm-physical-ai-platform",
@@ -309,8 +513,12 @@
       "catalog_status": "listed",
       "summary_en": "Walks through OpenArm's compliant, backdrivable hardware, force-feedback teleoperation, open CAD and firmware, and MuJoCo and Isaac simulation support.",
       "summary_zh": "介绍 OpenArm 的顺应性可反驱硬件、力反馈遥操作、开放 CAD 与固件，以及 MuJoCo 和 Isaac 仿真支持。",
-      "linked_repos": ["https://github.com/enactic/OpenArm"],
-      "related_urls": ["https://x.com/lukas_m_ziegler/status/1978069268697579832"]
+      "linked_repos": [
+        "https://github.com/enactic/OpenArm"
+      ],
+      "related_urls": [
+        "https://x.com/lukas_m_ziegler/status/1978069268697579832"
+      ]
     },
     {
       "id": "rebot-devarm-open-stack",
@@ -326,8 +534,12 @@
       "catalog_status": "listed",
       "summary_en": "Highlights the open structure files, detailed BOM, Python and ROS ecosystem, Isaac Sim, LeRobot, and visual-grasping integrations behind reBot-DevArm.",
       "summary_zh": "突出 reBot-DevArm 的开放结构文件、详细 BOM、Python 与 ROS 生态、Isaac Sim、LeRobot 和视觉抓取集成。",
-      "linked_repos": ["https://github.com/Seeed-Projects/reBot-DevArm"],
-      "related_urls": ["https://x.com/Alacritic_Super/status/2081386839194357787"]
+      "linked_repos": [
+        "https://github.com/Seeed-Projects/reBot-DevArm"
+      ],
+      "related_urls": [
+        "https://x.com/Alacritic_Super/status/2081386839194357787"
+      ]
     },
     {
       "id": "blueprint-ai-hardware-design",
@@ -344,7 +556,9 @@
       "summary_en": "Shows a conversational design tool producing a hardware concept with a BOM, cost estimate, wiring, CAD view, tools, assembly steps, and purchase links from a natural-language request.",
       "summary_zh": "展示对话式设计工具如何根据自然语言需求生成硬件概念、BOM、成本估算、布线、CAD 视图、工具清单、装配步骤和采购链接。",
       "linked_repos": [],
-      "related_urls": ["http://blueprint.am/"]
+      "related_urls": [
+        "http://blueprint.am/"
+      ]
     },
     {
       "id": "openglasses-printable-ai-eyewear",
@@ -360,7 +574,9 @@
       "catalog_status": "deferred",
       "summary_en": "Shows a 3D-printable Raspberry Pi Zero 2 W voice-assistant eyewear concept with microphone, speaker, cloud LLM, and ElevenLabs integration; formal listing waits for a repository license.",
       "summary_zh": "展示采用 Raspberry Pi Zero 2 W、麦克风、扬声器、云端 LLM 和 ElevenLabs 的 3D 打印语音助手眼镜；正式收录等待仓库补充许可证。",
-      "linked_repos": ["https://github.com/0xaiwhisperer/OpenGlasses"]
+      "linked_repos": [
+        "https://github.com/0xaiwhisperer/OpenGlasses"
+      ]
     },
     {
       "id": "mentra-open-smart-glasses",
@@ -392,7 +608,9 @@
       "catalog_status": "listed",
       "summary_en": "Explains how MCP clients convert natural-language requests into MQTT control and monitoring commands for lights, fans, motors, and multiple devices.",
       "summary_zh": "介绍 MCP 客户端如何把自然语言请求转换为 MQTT 控制与监测命令，用于灯光、风扇、电机和多设备管理。",
-      "linked_repos": ["https://github.com/mcp2everything/mcp2mqtt"]
+      "linked_repos": [
+        "https://github.com/mcp2everything/mcp2mqtt"
+      ]
     },
     {
       "id": "omiglass-brain-interface",
@@ -408,7 +626,9 @@
       "catalog_status": "listed",
       "summary_en": "Demonstrates an OmiGlass prototype combined with an fNIRS brain-interface sensor for all-day recording and focus or intent tracking within the broader Omi project.",
       "summary_zh": "演示 OmiGlass 与 fNIRS 脑机传感器组合，用于全天记录以及专注度或意图追踪，归入更完整的 Omi 开源项目。",
-      "linked_repos": ["https://github.com/BasedHardware/omi"]
+      "linked_repos": [
+        "https://github.com/BasedHardware/omi"
+      ]
     }
   ]
 }

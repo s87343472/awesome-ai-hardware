@@ -26,7 +26,11 @@
           "url": "https://github.com/nwkuga/ha-ai-doorbell/tree/main/docs"
         }
       ],
-      "tags": ["doorbell", "home-assistant", "vision-language-model"]
+      "tags": [
+        "doorbell",
+        "home-assistant",
+        "vision-language-model"
+      ]
     },
     {
       "id": "anima",
@@ -53,7 +57,11 @@
           "url": "https://github.com/Fullive-AI/Anima/tree/main/docs"
         }
       ],
-      "tags": ["agent", "local-first", "mi-home"]
+      "tags": [
+        "agent",
+        "local-first",
+        "mi-home"
+      ]
     },
     {
       "id": "autonomous-computer",
@@ -81,7 +89,43 @@
           "url": "https://github.com/user-attachments/assets/36f7aa02-42ac-4b35-b757-a5dd3b43ef1a"
         }
       ],
-      "tags": ["gpu", "local-ai", "open-hardware"]
+      "tags": [
+        "gpu",
+        "local-ai",
+        "open-hardware"
+      ]
+    },
+    {
+      "id": "autonomous-os",
+      "name": "Autonomous OS",
+      "repo_url": "https://github.com/autonomous-ai/autonomous-os",
+      "category": "robotics",
+      "description_zh": "面向真实机器人的可组合 Agent 操作系统：通过 ROBOT.md 声明机体、能力与安全边界，再把感知、推理和动作装配为可替换的运行时与技能。",
+      "description_en": "A composable agent operating system for physical robots that declares a body, capabilities, and safety boundaries in ROBOT.md, then assembles sensing, reasoning, and action through replaceable runtimes and skills.",
+      "ai_role": "Agentic runtimes choose actions from camera, microphone, and skill context; packaged skills include visual following, face enrollment, emotion detection, and learning from interaction.",
+      "hardware_role": "Board definitions and hardware abstraction layers connect declared robot bodies to cameras, microphones, LEDs, servos, and other actuators with a safety gate.",
+      "license": "Apache-2.0 (root; review component and model licenses separately)",
+      "added_at": "2026-09-12",
+      "discovered_at": "2026-09-12",
+      "source_url": "https://x.com/DanKornas/status/2098716755606544518",
+      "last_verified": "2026-09-12",
+      "resources": [
+        {
+          "type": "image",
+          "title": "Autonomous OS architecture",
+          "url": "https://github.com/autonomous-ai/autonomous-os/blob/main/docs/architecture/autonomous-stack.png"
+        },
+        {
+          "type": "docs",
+          "title": "Bring your own robot guide",
+          "url": "https://github.com/autonomous-ai/autonomous-os/blob/main/docs/bring-your-own-robot.md"
+        }
+      ],
+      "tags": [
+        "agent-runtime",
+        "physical-ai",
+        "robotics"
+      ]
     },
     {
       "id": "cyclo-intelligence",
@@ -109,7 +153,43 @@
           "url": "https://docs.robotis.com/docs/systems/aiworker/advanced_features/behavior_trees/"
         }
       ],
-      "tags": ["behavior-tree", "physical-ai", "vla"]
+      "tags": [
+        "behavior-tree",
+        "physical-ai",
+        "vla"
+      ]
+    },
+    {
+      "id": "esp-claw",
+      "name": "ESP-Claw",
+      "repo_url": "https://github.com/espressif/esp-claw",
+      "category": "edge-ai",
+      "description_zh": "乐鑫的 IoT 对话式 Agent 框架：在 ESP32 系列芯片上闭环完成感知、决策、工具调用和设备执行。",
+      "description_en": "Espressif's conversational IoT agent framework that closes the sensing, decision, tool-calling, and device-execution loop on ESP32-series chips.",
+      "ai_role": "An agent loop uses supported cloud LLM endpoints to reason over events, write or invoke Lua skills, and call tools for device behavior.",
+      "hardware_role": "ESP32-S3, P4, C5, and S31 boards run the local runtime and connect to sensors, displays, and connected IoT peripherals.",
+      "license": "Apache-2.0",
+      "added_at": "2026-09-12",
+      "discovered_at": "2026-09-12",
+      "source_url": "https://x.com/Alacritic_Super/status/2088271995716997196",
+      "last_verified": "2026-09-12",
+      "resources": [
+        {
+          "type": "video",
+          "title": "ESP-Claw community demo",
+          "url": "https://x.com/Alacritic_Super/status/2088271995716997196"
+        },
+        {
+          "type": "docs",
+          "title": "ESP-Claw tutorial",
+          "url": "https://esp-claw.com/en/tutorial/"
+        }
+      ],
+      "tags": [
+        "agent",
+        "esp32",
+        "iot"
+      ]
     },
     {
       "id": "esp32-ai",
@@ -136,7 +216,11 @@
           "url": "https://github.com/slvDev/esp32-ai/blob/main/RESULTS.md"
         }
       ],
-      "tags": ["esp32", "llm", "on-device-ai"]
+      "tags": [
+        "esp32",
+        "llm",
+        "on-device-ai"
+      ]
     },
     {
       "id": "esprec",
@@ -163,7 +247,11 @@
           "url": "https://github.com/tig/esprec/blob/main/AGENTS.md"
         }
       ],
-      "tags": ["agent-tooling", "esp32", "screen-capture"]
+      "tags": [
+        "agent-tooling",
+        "esp32",
+        "screen-capture"
+      ]
     },
     {
       "id": "findphone",
@@ -193,7 +281,11 @@
           "url": "https://github.com/ben-z/findphone#readme"
         }
       ],
-      "tags": ["ai-assisted-build", "bluetooth", "macos"]
+      "tags": [
+        "ai-assisted-build",
+        "bluetooth",
+        "macos"
+      ]
     },
     {
       "id": "hailo-apps",
@@ -220,7 +312,11 @@
           "url": "https://github.com/hailo-ai/hailo-apps/blob/main/doc/README.md"
         }
       ],
-      "tags": ["computer-vision", "hailo", "raspberry-pi"]
+      "tags": [
+        "computer-vision",
+        "hailo",
+        "raspberry-pi"
+      ]
     },
     {
       "id": "home-generative-agent",
@@ -247,7 +343,43 @@
           "url": "https://github.com/goruck/home-generative-agent/blob/main/docs/installation.md"
         }
       ],
-      "tags": ["agent", "home-assistant", "local-llm"]
+      "tags": [
+        "agent",
+        "home-assistant",
+        "local-llm"
+      ]
+    },
+    {
+      "id": "lerobot",
+      "name": "LeRobot",
+      "repo_url": "https://github.com/huggingface/lerobot",
+      "category": "robotics",
+      "description_zh": "Hugging Face 的端到端机器人学习库，统一真实机器人数据采集、数据集、策略训练和部署。",
+      "description_en": "Hugging Face's end-to-end robot-learning library that unifies real-robot data capture, datasets, policy training, and deployment.",
+      "ai_role": "Imitation-learning and vision-language-action policies train from robot datasets and turn observations into real-world robot actions.",
+      "hardware_role": "A hardware-agnostic robot interface supports arms, teleoperators, mobile robots, humanoids, cameras, and motor buses across many real platforms.",
+      "license": "Apache-2.0",
+      "added_at": "2026-09-12",
+      "discovered_at": "2026-09-12",
+      "source_url": "https://x.com/repocatai_git/status/2053722278991638660",
+      "last_verified": "2026-09-12",
+      "resources": [
+        {
+          "type": "video",
+          "title": "LeRobot robot-control demo",
+          "url": "https://github.com/huggingface/lerobot/blob/main/media/readme/robots_control_video.webp"
+        },
+        {
+          "type": "docs",
+          "title": "LeRobot installation documentation",
+          "url": "https://huggingface.co/docs/lerobot/installation"
+        }
+      ],
+      "tags": [
+        "imitation-learning",
+        "physical-ai",
+        "vla"
+      ]
     },
     {
       "id": "lightmem-ego",
@@ -275,7 +407,11 @@
           "url": "https://github.com/zjunlp/LightMem-Ego/tree/main/src/ai_glass_app"
         }
       ],
-      "tags": ["ai-glasses", "memory", "multimodal"]
+      "tags": [
+        "ai-glasses",
+        "memory",
+        "multimodal"
+      ]
     },
     {
       "id": "mcp2mqtt",
@@ -302,7 +438,75 @@
           "url": "https://github.com/mcp2everything/mcp2mqtt/blob/main/docs/images/workflow_eng.png"
         }
       ],
-      "tags": ["mcp", "mqtt", "smart-home"]
+      "tags": [
+        "mcp",
+        "mqtt",
+        "smart-home"
+      ]
+    },
+    {
+      "id": "microduck",
+      "name": "Microduck",
+      "repo_url": "https://github.com/pollen-robotics/microduck",
+      "category": "robotics",
+      "description_zh": "25 厘米双足鸭机器人，在板载 Rockchip 上以 50Hz 神经网络策略控制 15 个舵机，并提供从仿真训练到真机的完整链路。",
+      "description_en": "A 25-cm biped duck robot that drives 15 servos with 50-Hz neural policies on an onboard Rockchip and provides a full simulation-to-real training path.",
+      "ai_role": "ONNX neural policies trained with MuJoCo and PPO handle locomotion and load directly on the robot's control stack.",
+      "hardware_role": "A 15-servo biped with an RK3566, camera, IMUs, and other onboard devices executes policies and exposes robot control interfaces.",
+      "license": "Apache-2.0 (software; verify separate hardware-design terms before reuse)",
+      "added_at": "2026-09-12",
+      "discovered_at": "2026-09-12",
+      "source_url": "https://x.com/pollenrobotics/status/2092915032052879425",
+      "last_verified": "2026-09-12",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Microduck launch demo",
+          "url": "https://x.com/pollenrobotics/status/2092915032052879425"
+        },
+        {
+          "type": "docs",
+          "title": "Microduck reinforcement-learning repository",
+          "url": "https://github.com/pollen-robotics/microduck_rl"
+        }
+      ],
+      "tags": [
+        "biped",
+        "reinforcement-learning",
+        "sim-to-real"
+      ]
+    },
+    {
+      "id": "nightrun",
+      "name": "NIGHTRUN",
+      "repo_url": "https://github.com/hardrave/NIGHTRUN",
+      "category": "edge-ai",
+      "description_zh": "从 UEFI USB 或树莓派 5 SD 卡直接启动的本地 LLM 运行时，不依赖传统操作系统或网络栈。",
+      "description_en": "A local LLM runtime that boots directly from UEFI USB or a Raspberry Pi 5 SD card without a conventional operating system or network stack.",
+      "ai_role": "Hand-written quantized inference kernels load and run supported Llama and Qwen GGUF models fully offline.",
+      "hardware_role": "Runs directly on x86_64 UEFI PCs or Raspberry Pi 5 hardware, using framebuffer output, USB, or microSD boot media.",
+      "license": "MIT",
+      "added_at": "2026-09-12",
+      "discovered_at": "2026-09-12",
+      "source_url": "https://x.com/cnxsoft/status/2082761180674982167",
+      "last_verified": "2026-09-12",
+      "resources": [
+        {
+          "type": "video",
+          "title": "NIGHTRUN boot and inference demo",
+          "url": "https://github.com/hardrave/NIGHTRUN/blob/master/web/assets/nightrun-demo.gif"
+        },
+        {
+          "type": "docs",
+          "title": "NIGHTRUN supported hardware and models",
+          "url": "https://github.com/hardrave/NIGHTRUN#supported-hardware"
+        }
+      ],
+      "tags": [
+        "llm",
+        "raspberry-pi",
+        "uefi"
+      ]
     },
     {
       "id": "omi",
@@ -329,7 +533,11 @@
           "url": "https://omi.me/"
         }
       ],
-      "tags": ["memory", "voice-ai", "wearable"]
+      "tags": [
+        "memory",
+        "voice-ai",
+        "wearable"
+      ]
     },
     {
       "id": "open-v-robotics-system",
@@ -356,7 +564,11 @@
           "url": "https://github.com/vahagnmikayelyan/open-v-robotics-system/tree/main/docs"
         }
       ],
-      "tags": ["embodied-ai", "raspberry-pi", "robotics"]
+      "tags": [
+        "embodied-ai",
+        "raspberry-pi",
+        "robotics"
+      ]
     },
     {
       "id": "openarm",
@@ -384,7 +596,11 @@
           "url": "https://docs.openarm.dev/"
         }
       ],
-      "tags": ["humanoid-arm", "imitation-learning", "physical-ai"]
+      "tags": [
+        "humanoid-arm",
+        "imitation-learning",
+        "physical-ai"
+      ]
     },
     {
       "id": "openhome-abilities",
@@ -411,7 +627,11 @@
           "url": "https://github.com/openhome-dev/devkit"
         }
       ],
-      "tags": ["plugins", "raspberry-pi", "voice-ai"]
+      "tags": [
+        "plugins",
+        "raspberry-pi",
+        "voice-ai"
+      ]
     },
     {
       "id": "picolm",
@@ -438,7 +658,43 @@
           "url": "https://github.com/RightNow-AI/picolm/blob/main/BLOG.md"
         }
       ],
-      "tags": ["llm", "raspberry-pi", "risc-v"]
+      "tags": [
+        "llm",
+        "raspberry-pi",
+        "risc-v"
+      ]
+    },
+    {
+      "id": "reachy-mini",
+      "name": "Reachy Mini",
+      "repo_url": "https://github.com/pollen-robotics/reachy_mini",
+      "category": "robotics",
+      "description_zh": "面向 AI 创作者的开源桌面表情机器人，提供相机、麦克风、扬声器、头部电机、SDK、仿真和可安装应用。",
+      "description_en": "An open-source expressive desktop robot for AI builders with camera, microphones, speaker, head motors, SDKs, simulation, and installable apps.",
+      "ai_role": "LLM conversation, hand tracking, and developer-built AI applications use the robot SDK and app ecosystem for perception and behavior.",
+      "hardware_role": "Wireless and Lite versions expose camera, audio, motorized head, antennas, IMU, and optional onboard Raspberry Pi CM4 compute.",
+      "license": "Apache-2.0 (software; verify separate hardware-design terms before reuse)",
+      "added_at": "2026-09-12",
+      "discovered_at": "2026-09-12",
+      "source_url": "https://x.com/pollenrobotics/status/2074439807166562568",
+      "last_verified": "2026-09-12",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Reachy Mini launch demo",
+          "url": "https://x.com/pollenrobotics/status/2074439807166562568"
+        },
+        {
+          "type": "docs",
+          "title": "Reachy Mini hardware documentation",
+          "url": "https://huggingface.co/docs/reachy_mini/platforms/reachy_mini/hardware"
+        }
+      ],
+      "tags": [
+        "conversation",
+        "desktop-robot",
+        "voice-ai"
+      ]
     },
     {
       "id": "rebot-devarm",
@@ -466,7 +722,75 @@
           "url": "https://github.com/Seeed-Projects/reBot-DevArm/tree/main/hardware"
         }
       ],
-      "tags": ["embodied-ai", "lerobot", "robot-arm"]
+      "tags": [
+        "embodied-ai",
+        "lerobot",
+        "robot-arm"
+      ]
+    },
+    {
+      "id": "so-arm101",
+      "name": "SO-ARM101",
+      "repo_url": "https://github.com/TheRobotStudio/SO-ARM100",
+      "category": "robotics",
+      "description_zh": "与 LeRobot 配套的低成本开源主从机械臂，支持 3D 打印、遥操作采集、相机安装和模仿学习部署。",
+      "description_en": "A low-cost open-source leader-follower robot arm designed with LeRobot for 3D printing, teleoperation data collection, camera mounting, and imitation-learning deployment.",
+      "ai_role": "LeRobot records demonstrations from the leader arm, trains robot policies, and deploys learned actions to the follower arm.",
+      "hardware_role": "Printable mechanical parts, Feetech bus servos, motor-control boards, camera mounts, and paired arms create the physical teleoperation system.",
+      "license": "Apache-2.0",
+      "added_at": "2026-09-12",
+      "discovered_at": "2026-09-12",
+      "source_url": "https://x.com/kaigo_tech/status/2098212738434756678",
+      "last_verified": "2026-09-12",
+      "resources": [
+        {
+          "type": "video",
+          "title": "SO-ARM101 assembly and use video",
+          "url": "https://www.youtube.com/watch?v=rVP1XQ0PeM4"
+        },
+        {
+          "type": "docs",
+          "title": "LeRobot SO-101 assembly guide",
+          "url": "https://huggingface.co/docs/lerobot/so101"
+        }
+      ],
+      "tags": [
+        "imitation-learning",
+        "robot-arm",
+        "teleoperation"
+      ]
+    },
+    {
+      "id": "xiaozhi-esp32",
+      "name": "xiaozhi-esp32",
+      "repo_url": "https://github.com/78/xiaozhi-esp32",
+      "category": "voice-companions",
+      "description_zh": "基于 MCP 的 ESP32 语音机器人，把流式语音、LLM、视觉输入和设备端工具调用连接到 GPIO、舵机和智能家居。",
+      "description_en": "An MCP-based ESP32 voice robot that connects streaming voice, LLMs, vision input, and device-side tool calls to GPIO, servos, and smart-home devices.",
+      "ai_role": "Wake-word detection, ASR, LLM or realtime voice models, TTS, speaker recognition, and MCP tool calls power conversational device control.",
+      "hardware_role": "Supports ESP32 variants and dozens of boards with microphones, speakers, displays, cameras, LEDs, servos, and GPIO peripherals.",
+      "license": "MIT",
+      "added_at": "2026-09-12",
+      "discovered_at": "2026-09-12",
+      "source_url": "https://x.com/ardchain/status/2084383103251054735",
+      "last_verified": "2026-09-12",
+      "resources": [
+        {
+          "type": "video",
+          "title": "xiaozhi-esp32 community hardware demo",
+          "url": "https://x.com/ardchain/status/2084383103251054735"
+        },
+        {
+          "type": "docs",
+          "title": "xiaozhi-esp32 hardware documentation",
+          "url": "https://github.com/78/xiaozhi-esp32#hardware"
+        }
+      ],
+      "tags": [
+        "esp32",
+        "mcp",
+        "voice-ai"
+      ]
     }
   ]
 }

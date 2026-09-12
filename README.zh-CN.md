@@ -57,37 +57,45 @@ Awesome AI Hardware 是一个经过审核的 **AI × 硬件** 开源项目合集
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
 | 6 | OpenHome Abilities | MIT | 为语音 Agent 提供插件，本地 Ability 可运行在 Raspberry Pi DevKit 上并访问 GPIO 与传感器。 | — | [仓库](https://github.com/openhome-dev/abilities) | — |
+| 7 | xiaozhi-esp32 | MIT | 将流式语音、LLM、视觉输入和 MCP 工具调用连接至 ESP32 的 GPIO、舵机和智能家居设备。 | [视频](https://x.com/ardchain/status/2084383103251054735) | [仓库](https://github.com/78/xiaozhi-esp32) | [帖子](https://x.com/ardchain/status/2084383103251054735) |
 
 ### 机器人与具身智能
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 7 | Cyclo Intelligence | Apache-2.0 | 覆盖 ROBOTIS AI Worker 数据采集、策略训练、推理和真机执行，支持 Behavior Tree 与 VLA 混合控制。 | [视频](https://youtu.be/jRcUuwxFk_Y) | [仓库](https://github.com/ROBOTIS-GIT/cyclo_intelligence) | [帖子](https://x.com/passionvirus/status/2074051976133046428) |
-| 8 | Open V Robotics System | MIT | 在 SBC 与 Raspberry Pi Pico 之间，把受权限控制的 LLM 工具调用路由至电机、摄像头和传感器。 | [图片](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) | [仓库](https://github.com/vahagnmikayelyan/open-v-robotics-system) | — |
-| 9 | OpenArm | Apache-2.0 + 组件许可证 | 提供顺应性人形机械臂及开放 CAD、控制、遥操作、数据集、MuJoCo 与 Isaac Lab 物理 AI 栈。 | [视频](https://x.com/lukas_m_ziegler/status/2043595780695457957) | [仓库](https://github.com/enactic/OpenArm) | [帖子](https://x.com/lukas_m_ziegler/status/2043595780695457957) |
-| 10 | reBot-DevArm | CERN-OHL-W-2.0 | 开放机械臂结构和 BOM，并连接 ROS、Isaac Sim、LeRobot 与视觉抓取工作流。 | [图片](https://x.com/IlirAliu_/status/2040702009720881214/photo/1) | [仓库](https://github.com/Seeed-Projects/reBot-DevArm) | [帖子](https://x.com/IlirAliu_/status/2040702009720881214) |
+| 8 | Autonomous OS | Apache-2.0 | 可组合的 Agent 操作系统，连接声明式机器人机体、安全门、传感器、模型和技能。 | [图片](https://github.com/autonomous-ai/autonomous-os/blob/main/docs/architecture/autonomous-stack.png) | [仓库](https://github.com/autonomous-ai/autonomous-os) | [帖子](https://x.com/DanKornas/status/2098716755606544518) |
+| 9 | Cyclo Intelligence | Apache-2.0 | 覆盖 ROBOTIS AI Worker 数据采集、策略训练、推理和真机执行，支持 Behavior Tree 与 VLA 混合控制。 | [视频](https://youtu.be/jRcUuwxFk_Y) | [仓库](https://github.com/ROBOTIS-GIT/cyclo_intelligence) | [帖子](https://x.com/passionvirus/status/2074051976133046428) |
+| 10 | LeRobot | Apache-2.0 | 面向真实机器人的端到端学习工具、数据集、策略和部署接口。 | [视频](https://github.com/huggingface/lerobot/blob/main/media/readme/robots_control_video.webp) | [仓库](https://github.com/huggingface/lerobot) | [帖子](https://x.com/repocatai_git/status/2053722278991638660) |
+| 11 | Microduck | Apache-2.0 软件 | 25 厘米双足机器人，以 50Hz 神经网络策略控制 15 个舵机，并提供公开 sim-to-real 训练链路。 | [视频](https://x.com/pollenrobotics/status/2092915032052879425) | [仓库](https://github.com/pollen-robotics/microduck) | [帖子](https://x.com/pollenrobotics/status/2092915032052879425) |
+| 12 | Open V Robotics System | MIT | 在 SBC 与 Raspberry Pi Pico 之间，把受权限控制的 LLM 工具调用路由至电机、摄像头和传感器。 | [图片](https://github.com/vahagnmikayelyan/open-v-robotics-system/blob/main/docs/images/main%20screen.png) | [仓库](https://github.com/vahagnmikayelyan/open-v-robotics-system) | — |
+| 13 | OpenArm | Apache-2.0 + 组件许可证 | 提供顺应性人形机械臂及开放 CAD、控制、遥操作、数据集、MuJoCo 与 Isaac Lab 物理 AI 栈。 | [视频](https://x.com/lukas_m_ziegler/status/2043595780695457957) | [仓库](https://github.com/enactic/OpenArm) | [帖子](https://x.com/lukas_m_ziegler/status/2043595780695457957) |
+| 14 | Reachy Mini | Apache-2.0 软件 | 配备相机、音频、运动机构、SDK、仿真与 LLM 应用的桌面表情机器人。 | [视频](https://x.com/pollenrobotics/status/2074439807166562568) | [仓库](https://github.com/pollen-robotics/reachy_mini) | [帖子](https://x.com/pollenrobotics/status/2074439807166562568) |
+| 15 | reBot-DevArm | CERN-OHL-W-2.0 | 开放机械臂结构和 BOM，并连接 ROS、Isaac Sim、LeRobot 与视觉抓取工作流。 | [图片](https://x.com/IlirAliu_/status/2040702009720881214/photo/1) | [仓库](https://github.com/Seeed-Projects/reBot-DevArm) | [帖子](https://x.com/IlirAliu_/status/2040702009720881214) |
+| 16 | SO-ARM101 | Apache-2.0 | 与 LeRobot 配套的低成本可打印主从机械臂，支持遥操作、采集数据和策略部署。 | [视频](https://www.youtube.com/watch?v=rVP1XQ0PeM4) | [仓库](https://github.com/TheRobotStudio/SO-ARM100) | [帖子](https://x.com/kaigo_tech/status/2098212738434756678) |
 
 ### 边缘 AI 与微控制器
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 11 | Autonomous Computer | MIT | 提供 2、4、8 GPU 本地 AI 电脑的开放 BOM、CAD、装配资料和完整构建指南。 | [视频](https://x.com/dee_hw/status/2065803426429346115) | [仓库](https://github.com/autonomous-ai/autonomous-computer) | [帖子](https://x.com/dee_hw/status/2065803429071765819) |
-| 12 | ESP32 AI | MIT | 在 ESP32-S3 上完全离线运行 2890 万参数语言模型，并将生成文本输出到显示屏。 | [视频](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) | [仓库](https://github.com/slvDev/esp32-ai) | [帖子](https://x.com/GithubAwesome/status/2081550211990569069) |
-| 13 | Hailo Apps | MIT | 为树莓派 5 等平台上的 Hailo 加速器提供可运行的视觉、VLM、LLM 与语音应用。 | [视频](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) | [仓库](https://github.com/hailo-ai/hailo-apps) | — |
-| 14 | PicoLM | MIT | 通过零依赖 C 推理引擎，在低内存 RISC-V 和树莓派设备上运行量化十亿参数 GGUF 模型。 | [图片](https://x.com/GitHub_Daily/status/2083183407132254242/photo/1) | [仓库](https://github.com/RightNow-AI/picolm) | [帖子](https://x.com/GitHub_Daily/status/2083183407132254242) |
+| 17 | Autonomous Computer | MIT | 提供 2、4、8 GPU 本地 AI 电脑的开放 BOM、CAD、装配资料和完整构建指南。 | [视频](https://x.com/dee_hw/status/2065803426429346115) | [仓库](https://github.com/autonomous-ai/autonomous-computer) | [帖子](https://x.com/dee_hw/status/2065803429071765819) |
+| 18 | ESP-Claw | Apache-2.0 | 在 ESP32 上完成事件感知、LLM 推理、工具调用和 IoT 执行的 Agent 运行时。 | [视频](https://x.com/Alacritic_Super/status/2088271995716997196) | [仓库](https://github.com/espressif/esp-claw) | [帖子](https://x.com/Alacritic_Super/status/2088271995716997196) |
+| 19 | ESP32 AI | MIT | 在 ESP32-S3 上完全离线运行 2890 万参数语言模型，并将生成文本输出到显示屏。 | [视频](https://github.com/slvDev/esp32-ai/blob/main/media/esp32-ple-demo.gif) | [仓库](https://github.com/slvDev/esp32-ai) | [帖子](https://x.com/GithubAwesome/status/2081550211990569069) |
+| 20 | Hailo Apps | MIT | 为树莓派 5 等平台上的 Hailo 加速器提供可运行的视觉、VLM、LLM 与语音应用。 | [视频](https://github.com/hailo-ai/hailo-apps/blob/main/doc/images/agentic_ai.gif) | [仓库](https://github.com/hailo-ai/hailo-apps) | — |
+| 21 | NIGHTRUN | MIT | 在 UEFI PC 或树莓派 5 上直接启动、无需传统操作系统的本地 LLM 运行时。 | [视频](https://github.com/hardrave/NIGHTRUN/blob/master/web/assets/nightrun-demo.gif) | [仓库](https://github.com/hardrave/NIGHTRUN) | [帖子](https://x.com/cnxsoft/status/2082761180674982167) |
+| 22 | PicoLM | MIT | 通过零依赖 C 推理引擎，在低内存 RISC-V 和树莓派设备上运行量化十亿参数 GGUF 模型。 | [图片](https://x.com/GitHub_Daily/status/2083183407132254242/photo/1) | [仓库](https://github.com/RightNow-AI/picolm) | [帖子](https://x.com/GitHub_Daily/status/2083183407132254242) |
 
 ### 协议、桥接层与基础设施
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 15 | esprec | Apache-2.0 | 通过 ESP32 端组件和 USB 主机工具，让编码 Agent 捕获并检查真实设备屏幕。 | [视频](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [仓库](https://github.com/tig/esprec) | — |
-| 16 | mcp2mqtt | MIT | 把 MCP 工具调用转换成 MQTT 命令，让大模型控制联网灯光、电机和其他设备。 | [图片](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [仓库](https://github.com/mcp2everything/mcp2mqtt) | [帖子](https://x.com/GitHub_Daily/status/1946721719349055520) |
+| 23 | esprec | Apache-2.0 | 通过 ESP32 端组件和 USB 主机工具，让编码 Agent 捕获并检查真实设备屏幕。 | [视频](https://github.com/tig/esprec/blob/main/docs/examples/xuss-c-screens.gif) | [仓库](https://github.com/tig/esprec) | — |
+| 24 | mcp2mqtt | MIT | 把 MCP 工具调用转换成 MQTT 命令，让大模型控制联网灯光、电机和其他设备。 | [图片](https://x.com/GitHub_Daily/status/1946721719349055520/photo/1) | [仓库](https://github.com/mcp2everything/mcp2mqtt) | [帖子](https://x.com/GitHub_Daily/status/1946721719349055520) |
 
 ### AI 状态可视化与创意硬件
 
 | 序号 | 名称 | 许可证 | 介绍 | 图片/视频 | GitHub | X |
 |---:|---|---|---|---|---|---|
-| 17 | findphone † | 未声明许可证（维护者例外） | 由 Claude 协助制作的 macOS 蓝牙 RSSI 寻机工具，通过仪表和声音反馈引导用户找到附近手机。 | [视频](https://x.com/un1c0rnioz/status/2084686552299634805) | [仓库](https://github.com/ben-z/findphone) | [帖子](https://x.com/un1c0rnioz/status/2084686552299634805) |
+| 25 | findphone † | 未声明许可证（维护者例外） | 由 Claude 协助制作的 macOS 蓝牙 RSSI 寻机工具，通过仪表和声音反馈引导用户找到附近手机。 | [视频](https://x.com/un1c0rnioz/status/2084686552299634805) | [仓库](https://github.com/ben-z/findphone) | [帖子](https://x.com/un1c0rnioz/status/2084686552299634805) |
 
 † 维护者批准的例外：AI 用于制作过程而非运行时，且仓库没有声明许可证。详见[审核记录](reviews/2026-08-05-findphone-showcase.md)。
 

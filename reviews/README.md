@@ -8,6 +8,7 @@ This archive records batch-level verification decisions for submitted projects. 
 
 ### 2026
 
+- [2026-09-12 — Grok hardware candidate batch](2026-09-12-grok-hardware-batch.md)
 - [2026-08-05 — Findphone X Showcase](2026-08-05-findphone-showcase.md)
 - [2026-08-02 — Extended X Showcase batch](2026-08-02-extended-showcase-batch.md)
 - [2026-08-01 — X Showcase batch](2026-08-01-showcase-batch.md)
@@ -19,6 +20,7 @@ This archive records batch-level verification decisions for submitted projects. 
 
 ### 2026
 
+- [2026-09-12 — Grok 硬件候选批次](2026-09-12-grok-hardware-batch.md)
 - [2026-08-05 — Findphone X Showcase 审核](2026-08-05-findphone-showcase.md)
 - [2026-08-02 — 扩展 X Showcase 批次](2026-08-02-extended-showcase-batch.md)
 - [2026-08-01 — X Showcase 批次](2026-08-01-showcase-batch.md)
